@@ -23,6 +23,26 @@
 		}
 	</style>
 	
+	<script language="javascript">
+		function onClick() {
+		  const answers = document.querySelectorAll('input')
+			for (const f of answers) {
+			if (f.value=="tr") {
+				$(`label[for="${f.id}"]`).css('color','Lime');
+			}
+			if ((f.checked) && (f.value=="fa")) {
+				//console.log(f.value);
+	
+	
+				$(`label[for="${f.id}"]`).css('color','Red');
+	
+				
+			}
+			}
+		}
+		</script>
+
+
 
 </head>
 
@@ -47,25 +67,157 @@
 
 <div class="container">
 	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=4582410" allowfullscreen></iframe>
+		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=4582410"></iframe>
 	</div>
 </div>
 <br>
 
-<div class="container">
-	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=4582246" allowfullscreen></iframe>
-	</div>
-</div>
+<p><a href="https://quizlet.com/686697112/flashcards" target="_blank"><b>Карточки по теме "Неполное доминирование"<br>Кликни, чтобы перейти</b></a></p>
+
+
 <br>
 
-<div class="container">
-	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=4582323" allowfullscreen></iframe>
-	</div>
-</div>
-<br>
 
+<!-------------------------- Блок вопросов -------------------------->	
+<form>
+	<div class="text-justify">
+	
+	<!-------------------------- Первый вопрос -------------------------->
+	
+		<p> &nbsp; &nbsp; &nbsp; <b>1. При скрещивании растений ночной красавицы с красными и белыми цветками появится гибридное потомство
+		с розовыми цветками в результате:</b></p>
+		<div class="ml-5">
+			<div>
+				<input type="radio" name="quest1" value="fa" id="11"> <label for="11">сцепленного наследования</label><br>
+				<input type="radio" name="quest1" value="fa" id="12"> <label for="12">расщепления признаков</label><br>
+				<input type="radio" name="quest1" value="fa" id="13"> <label for="13">независимого наследования</label><br>
+				<input type="radio" name="quest1" value="tr" id="14"> <label for="14">неполного доминирования</label><br>
+			  </div>
+		  </div>
+				
+	<!-------------------------- Второй вопрос -------------------------->	
+		
+		<p> &nbsp; &nbsp; &nbsp; <b>2. При неполном доминировании доминантный признак проявляется у организма  с генотипом:</b></p>
+		<div class="ml-5">
+			<div>
+				<input type="radio" name="quest2" value="fa" id="21"> <label for="21">Аа</label><br>
+				<input type="radio" name="quest2" value="tr" id="22"> <label for="22">АА</label><br>
+				<input type="radio" name="quest2" value="fa" id="23"> <label for="23">аа</label><br>
+				<input type="radio" name="quest2" value="fa" id="24"> <label for="24">аА</label><br>
+			  </div> 
+		  </div>
+
+	<!-------------------------- Третий вопрос -------------------------->	
+		
+	<p> &nbsp; &nbsp; &nbsp; <b>3. При моногибридном скрещивании гетерозигот при промежуточном характере наследования признака наблюдается
+	расщепление по фенотипу:</b></p>
+	<div class="ml-5">
+		<div>
+			<input type="radio" name="quest3" value="fa" id="31"> <label for="31">3:1</label><br>
+			<input type="radio" name="quest3" value="fa" id="32"> <label for="32">1:1</label><br>
+			<input type="radio" name="quest3" value="tr" id="33"> <label for="33">1:2:1</label><br>
+			<input type="radio" name="quest3" value="fa" id="34"> <label for="34">9:3:3:1</label><br>
+		  </div> 
+	  </div>
+  
+<!-------------------------- Четвертый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>4. При скрещивании краснозерной пшеницы с белозерной появление в первом поколении розовозерной формы,
+а во втором -  трех фенотипических классов в пропорции 1 (краснозерные) : 2 (розовозерные) : 1 (белозерные) является результатом взаимодействия:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest4" value="tr" id="41"> <label for="41">аллельных генов по типу неполного доминирования</label><br>
+		<input type="radio" name="quest4" value="fa" id="42"> <label for="42">неаллельных генов по типу полимерии</label><br>
+		<input type="radio" name="quest4" value="fa" id="43"> <label for="43">неаллельных генов по типу эпистаза</label><br>
+		<input type="radio" name="quest4" value="fa" id="44"> <label for="44">неаллельных генов по типу комплементарности</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Пятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>5. Куры с белым оперением при скрещивании между собой всегда дают белое потомство, а куры с черным оперением
+– черное. Потомство от скрещивания белой и черной особей оказывается голубым (пестрым). Какая часть потомства от скрещивания голубых петуха
+и курицы будет с голубым оперением?</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest5" value="fa" id="51"> <label for="51">0%</label><br>
+		<input type="radio" name="quest5" value="fa" id="52"> <label for="52">25%</label><br>
+		<input type="radio" name="quest5" value="tr" id="53"> <label for="53">50%</label><br>
+		<input type="radio" name="quest5" value="fa" id="54"> <label for="54">75%</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Шестой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>6. Вид взаимодействия аллельных генов, при котором фенотип гетерозигот отличается как от фенотипа гомозигот по
+доминанте, так и от фенотипа гомозигот по рецессиву и имеет среднее (промежуточное) значение между ними это –</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest6" value="fa" id="61"> <label for="61">комплиментарность</label><br>
+		<input type="radio" name="quest6" value="tr" id="62"> <label for="62">неполное доминирование</label><br>
+		<input type="radio" name="quest6" value="fa" id="63"> <label for="63">полное доминирование</label><br>
+		<input type="radio" name="quest6" value="fa" id="64"> <label for="64">эпистаз</label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Cедьмой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>7. Доминирование бывает:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="checkbox" name="quest7" value="tr" id="71"> <label for="71">полное</label><br>
+		<input type="checkbox" name="quest7" value="tr" id="72"> <label for="72">неполное</label><br>
+		<input type="checkbox" name="quest7" value="fa" id="73"> <label for="73">аллельное</label><br>
+		<input type="checkbox" name="quest7" value="fa" id="74"> <label for="74">полимерное</label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Восьмой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>8.  Какому поколению соответствует расщепление по фенотипу в соотношении 1 : 2 : 1:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest8" value="fa" id="81"> <label for="81">анализирующее скрещивание</label><br>
+		<input type="radio" name="quest8" value="tr" id="82"> <label for="82">F2 неполное доминирование +</label><br>
+		<input type="radio" name="quest8" value="fa" id="83"> <label for="83">F2 полное доминирование</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Девятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>9. При скрещивании красноцветковых растений львиного зева с белоцветковыми потомки были с розовыми цветками.
+Какой тип наследования наблюдается в данном случае:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest9" value="fa" id="91"> <label for="91">неполное доминирование +</label><br>
+		<input type="radio" name="quest9" value="fa" id="92"> <label for="92">множественный аллелизм</label><br>
+		<input type="radio" name="quest9" value="fa" id="93"> <label for="93">полное доминирование</label><br>
+	  </div> 
+  </div>
+	
+<!-------------------------- Десятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>10. Для каких признаков характерно неполное доминирование? 1) окраска цветка ночной красавицы; 2) цвет ягоды клубники;
+	3) строение перьев птиц; 4) строение перьев у андалузских кур; 5) окраска семян гороха.</b></p>
+	<div class="ml-5">
+		<div>
+			<input type="radio" name="quest10" value="fa" id="101"> <label for="101">1, 4, 5</label><br>
+			<input type="radio" name="quest10" value="tr" id="102"> <label for="102">1, 2, 3, 4</label><br>
+			<input type="radio" name="quest10" value="fa" id="103"> <label for="103">3, 4</label><br>
+			<input type="radio" name="quest10" value="fa" id="103"> <label for="103">1, 2, 5</label><br>
+		  </div> 
+	    </div>   
+
+	
+</div>	 
+
+	<input type="button" value="Проверить ответы" name="answers" onclick="onClick();" class="btn btn-primary">
+	
+	</form>
+	
+	<!-------------------------- Блок вопросов -------------------------->
+
+<br>
 
 </div>   
 </body>

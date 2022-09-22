@@ -23,6 +23,26 @@
 		}
 	</style>
 	
+	<script language="javascript">
+		function onClick() {
+		  const answers = document.querySelectorAll('input')
+			for (const f of answers) {
+			if (f.value=="tr") {
+				$(`label[for="${f.id}"]`).css('color','Lime');
+			}
+			if ((f.checked) && (f.value=="fa")) {
+				//console.log(f.value);
+	
+	
+				$(`label[for="${f.id}"]`).css('color','Red');
+	
+				
+			}
+			}
+		}
+		</script>
+
+
 
 </head>
 
@@ -53,10 +73,215 @@
 
 <div class="container">
 	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=8371144" allowfullscreen></iframe>
+		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=6734975" allowfullscreen></iframe>
 	</div>
 </div>
 <br>
+
+<!-------------------------- Блок вопросов -------------------------->	
+<form>
+	<div class="text-justify">
+	
+	<!-------------------------- Первый вопрос -------------------------->
+	
+		<p> &nbsp; &nbsp; &nbsp; <b>1. Какие хромосомы называются аутосомами?</b></p>
+		<div class="ml-5">
+			<div>
+				<input type="radio" name="quest1" value="fa" id="11"> <label for="11">половые хромосомы в клетках мужских и женских организмов.</label><br>
+				<input type="radio" name="quest1" value="fa" id="12"> <label for="12">отдельные хромосомы в клетках мужских и женских организмов</label><br>
+				<input type="radio" name="quest1" value="fa" id="13"> <label for="13">все хромосомы в клетках мужских и женских организмов</label><br>
+				<input type="radio" name="quest1" value="tr" id="14"> <label for="14">все хромосомы в клетках мужских и женских организмов, за исключением половых</label><br>
+			  </div>
+		  </div>
+				
+	<!-------------------------- Второй вопрос -------------------------->	
+		
+		<p> &nbsp; &nbsp; &nbsp; <b>2. Какая хромосома нужна сперматозоиду, чтобы, образовав с яйцеклеткой зиготу, дать начало развитию мужского организма у человека?</b></p>
+		<div class="ml-5">
+			<div>
+				<input type="radio" name="quest2" value="fa" id="21"> <label for="21">W</label><br>
+				<input type="radio" name="quest2" value="fa" id="22"> <label for="22">X</label><br>
+				<input type="radio" name="quest2" value="tr" id="23"> <label for="23">Y</label><br>
+				<input type="radio" name="quest2" value="fa" id="24"> <label for="24">Z</label><br>
+			  </div> 
+		  </div>
+		  
+	<!-------------------------- Третий вопрос -------------------------->	
+		
+	<p> &nbsp; &nbsp; &nbsp; <b>3. Если у проникающего в яйцеклетку человека сперматозоида содержится X-хромосома, то какой организм развивается из зиготы?</b></p>
+	<div class="ml-5">
+		<div>
+			<input type="radio" name="quest3" value="fa" id="31"> <label for="31">живой</label><br>
+			<input type="radio" name="quest3" value="fa" id="32"> <label for="32">мужской</label><br>
+			<input type="radio" name="quest3" value="tr" id="33"> <label for="33">женский</label><br>
+			<input type="radio" name="quest3" value="fa" id="34"> <label for="34">полноценный</label><br>
+		  </div> 
+	  </div>
+				  
+<!-------------------------- Четвертый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>4. Какая изменчивость связана с изменением генетического материала?</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest4" value="fa" id="41"> <label for="41">комбинативная</label><br>
+		<input type="radio" name="quest4" value="tr" id="42"> <label for="42">генотипическая</label><br>
+		<input type="radio" name="quest4" value="fa" id="43"> <label for="43">мутационная</label><br>
+		<input type="radio" name="quest4" value="fa" id="44"> <label for="44">естественная</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Пятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>5. Как одним словом называются форма, размер и общее число хромосом, которые свойственны определенному виду организмов?</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest5" value="fa" id="51"> <label for="51">фенотип</label><br>
+		<input type="radio" name="quest5" value="tr" id="52"> <label for="52">кариотип</label><br>
+		<input type="radio" name="quest5" value="fa" id="53"> <label for="53">генотип</label><br>
+		<input type="radio" name="quest5" value="fa" id="54"> <label for="54">кариоплазма</label><br>
+	  </div> 
+  </div>
+	 
+<!-------------------------- Шестой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>6. От чего зависит пол человека?</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest6" value="tr" id="61"> <label for="61">от типа сперматозоида, оплодотворяющего яйцеклетку</label><br>
+		<input type="radio" name="quest6" value="fa" id="62"> <label for="62">от типа оплодотворяемой яйцеклетки</label><br>
+		<input type="radio" name="quest6" value="fa" id="63"> <label for="63">от мужской и женской гамет</label><br>
+		<input type="radio" name="quest6" value="fa" id="64"> <label for="64">от всех хромосом мужского и женского организма</label><br>
+	  </div> 
+  </div>
+   
+<!-------------------------- Cедьмой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>7. Как называется наследование, при котором осуществляется передача генов, находящихся в половых хромосомах, и которое контролируется этими генами?</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest7" value="fa" id="71"> <label for="71">наследственная изменчивость</label><br>
+		<input type="radio" name="quest7" value="fa" id="72"> <label for="72">наследственность</label><br>
+		<input type="radio" name="quest7" value="fa" id="73"> <label for="73">сцепленное наследование</label><br>
+		<input type="radio" name="quest7" value="tr" id="74"> <label for="74">наследование, сцепленное с полом</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Восьмой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>8. Какие мутации встречаются чаще всего?</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest8" value="tr" id="81"> <label for="81">нейтральные</label><br>
+		<input type="radio" name="quest8" value="fa" id="82"> <label for="82">полезные</label><br>
+		<input type="radio" name="quest8" value="fa" id="83"> <label for="83">вредные</label><br>
+		<input type="radio" name="quest8" value="fa" id="84"> <label for="84">летальные</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Девятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>9. Признаки, наследуемые с половыми хромосомами, называются:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest9" value="fa" id="91"> <label for="91">половыми доминантами</label><br>
+		<input type="radio" name="quest9" value="tr" id="92"> <label for="92">сцепленными с полом</label><br>
+		<input type="radio" name="quest9" value="fa" id="93"> <label for="93">рецессивными</label><br>
+		<input type="radio" name="quest9" value="fa" id="94"> <label for="94">аутосомными</label><br>
+	  </div> 
+  </div>
+	
+<!-------------------------- Десятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>10. Мужской пол у человека определяет:</b></p>
+	<div class="ml-5">
+		<div>
+			<input type="radio" name="quest10" value="fa" id="101"> <label for="101">Х-хромосома</label><br>
+			<input type="radio" name="quest10" value="fa" id="102"> <label for="102">Х - и Y-хромосомы</label><br>
+			<input type="radio" name="quest10" value="fa" id="103"> <label for="103">аутосома</label><br>
+			<input type="radio" name="quest10" value="tr" id="103"> <label for="103">Y-хромосомы</label><br>
+		  </div> 
+	    </div>   
+						
+<!-------------------------- Одиннадцатый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>11. Укажите генотип черепаховой (черно-рыжей) кошки. (ХВ – черная окраска, Хb – рыжая окраска).</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest11" value="tr" id="111"> <label for="111">ХВХb</label><br>
+		<input type="radio" name="quest11" value="fa" id="112"> <label for="112">ХВХВ</label><br>
+		<input type="radio" name="quest11" value="fa" id="113"> <label for="113">ХВУ</label><br>
+		<input type="radio" name="quest11" value="fa" id="114"> <label for="114">ХbХb</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Двеннадцатый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>12. Выберите три верных утверждения:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="checkbox" name="quest12" value="tr" id="121"> <label for="121">неполовые хромосомы называются аутосомами</label><br>
+		<input type="checkbox" name="quest12" value="fa" id="122"> <label for="122">число, размер и форма хромосом, характерные для
+			 данного вида организмов, называются генотипом</label><br>
+		<input type="checkbox" name="quest12" value="tr" id="123"> <label for="123">женская особь обозначается в генетике символом ♀</label><br>
+		<input type="checkbox" name="quest12" value="fa" id="124"> <label for="124">пол потомства определяется типом яйцеклетки</label><br>
+		<input type="checkbox" name="quest12" value="tr" id="125"> <label for="125">половые клетки имеют гаплоидный набор хромосом</label><br>
+		<input type="checkbox" name="quest12" value="fa" id="126"> <label for="126">женская особь обозначается в генетике символом ♂</label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Триннадцатый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>13. Какой генотип имеет человек - дальтоник?</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest13" value="fa" id="131"> <label for="131">XDY</label><br>
+		<input type="radio" name="quest13" value="tr" id="132"> <label for="132">XdY</label><br>
+		<input type="radio" name="quest13" value="fa" id="133"> <label for="133">XY</label><br>
+		<input type="radio" name="quest13" value="fa" id="134"> <label for="134">XDXD</label><br>
+	  </div> 
+  </div>
+  
+
+ <!-------------------------- Четырнадцатый вопрос -------------------------->	
+		
+ <p> &nbsp; &nbsp; &nbsp; <b>14. Какой  тип  наследования   характерен     для   талассемии – одного  из  видов:</b></p>
+ <div class="ml-5">
+	 <div>
+		 <input type="radio" name="quest14" value="tr" id="141"> <label for="141">аутосомно-доминатный</label><br>
+		 <input type="radio" name="quest14" value="fa" id="142"> <label for="142">аутосомно-рецессивных</label><br>
+		 <input type="radio" name="quest14" value="fa" id="143"> <label for="143">рецессивный сцепленный с Х–хромосомой</label><br>
+		 <input type="radio" name="quest14" value="fa" id="144"> <label for="144">доминантный сцепленный с Х–хромосомой</label><br>
+		 <input type="radio" name="quest14" value="fa" id="145"> <label for="145">сцепленный с Y–хромосомой</label><br>
+		 <input type="radio" name="quest14" value="fa" id="146"> <label for="146">цитоплазматическое наследование</label><br>
+	   </div> 
+   </div>
+   
+<!-------------------------- Пятнадцатый вопрос -------------------------->	
+		
+ <p> &nbsp; &nbsp; &nbsp; <b>15. Какой тип наследования характерен для полидактили – многопалости?</b></p>
+ <div class="ml-5">
+	 <div>
+		 <input type="radio" name="quest15" value="tr" id="151"> <label for="151">аутосомно – доминантный</label><br>
+		 <input type="radio" name="quest15" value="fa" id="152"> <label for="152">аутосомно – рецессивный</label><br>
+		 <input type="radio" name="quest15" value="fa" id="153"> <label for="153">рецессивный сцепленный с Х–хромосомной</label><br>
+		 <input type="radio" name="quest15" value="fa" id="154"> <label for="154">доминантный сцепленный с Х–хромосомной</label><br>
+		 <input type="radio" name="quest15" value="fa" id="155"> <label for="155">сцепленный с Y–хромосомной</label><br>
+		 <input type="radio" name="quest15" value="fa" id="156"> <label for="156">цитоплазматическое наследование</label><br>
+	   </div> 
+   </div>
+ 
+  
+</div>	 
+
+
+	<input type="button" value="Проверить ответы" name="answers" onclick="onClick();" class="btn btn-primary">
+	
+	</form>
+	
+	<!-------------------------- Блок вопросов -------------------------->
+
+<br>
+
 
 </div>   
 </body>

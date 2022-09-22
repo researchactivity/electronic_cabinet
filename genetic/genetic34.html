@@ -23,6 +23,25 @@
 		}
 	</style>
 	
+	<script language="javascript">
+		function onClick() {
+		  const answers = document.querySelectorAll('input')
+			for (const f of answers) {
+			if (f.value=="tr") {
+				$(`label[for="${f.id}"]`).css('color','Lime');
+			}
+			if ((f.checked) && (f.value=="fa")) {
+				//console.log(f.value);
+	
+	
+				$(`label[for="${f.id}"]`).css('color','Red');
+	
+				
+			}
+			}
+		}
+		</script>
+
 
 </head>
 
@@ -51,6 +70,307 @@
 	</div>
 </div>
 <br>
+
+
+
+<!-------------------------- Блок вопросов -------------------------->	
+<form>
+	<div class="text-justify">
+	
+	<!-------------------------- Первый вопрос -------------------------->
+	
+		<p> &nbsp; &nbsp; &nbsp; <b>1. За наследование окраски семян (желтая, зеленая) и формы семян (гладкая, морщинистая) у гороха отвечают:</b></p>
+		<div class="ml-5">
+			<div>
+				<input type="radio" name="quest1" value="fa" id="11"> <label for="11">Одна пара гомологичных хромосом.</label><br>
+				<input type="radio" name="quest1" value="tr" id="12"> <label for="12">Две пары гомологичных хромосом.</label><br>
+				<input type="radio" name="quest1" value="fa" id="13"> <label for="13">Три пары гомологичных хромосом.</label><br>
+				<input type="radio" name="quest1" value="fa" id="14"> <label for="14">Четыре пары гомологичных хромосом.</label><br>
+			  </div>
+		  </div>
+		  
+	<!-------------------------- Второй вопрос -------------------------->	
+		
+		<p> &nbsp; &nbsp; &nbsp; <b>2. Генотип гороха с желтой окраской и морщинистой формой семян — ААbb. У данного сорта образуется:</b></p>
+		<div class="ml-5">
+			<div>
+				<input type="radio" name="quest2" value="tr" id="21"> <label for="21">Один сорт гамет.</label><br>
+				<input type="radio" name="quest2" value="fa" id="22"> <label for="22">Два сорта гамет.</label><br>
+				<input type="radio" name="quest2" value="fa" id="23"> <label for="23">Три сорта гамет.</label><br>
+				<input type="radio" name="quest2" value="fa" id="24"> <label for="24">Четыре сорта гамет.</label><br>
+			  </div> 
+		  </div>
+  
+	<!-------------------------- Третий вопрос -------------------------->	
+		
+	<p> &nbsp; &nbsp; &nbsp; <b>3. Генотип гороха с желтой окраской и морщинистой формой семян АаВb. У данной особи образуется:</b></p>
+	<div class="ml-5">
+		<div>
+			<input type="radio" name="quest3" value="fa" id="31"> <label for="31">Один сорт гамет.</label><br>
+			<input type="radio" name="quest3" value="fa" id="32"> <label for="32">Два сорта гамет.</label><br>
+			<input type="radio" name="quest3" value="fa" id="33"> <label for="33">Три сорта гамет.</label><br>
+			<input type="radio" name="quest3" value="tr" id="34"> <label for="34">Четыре сорта гамет.</label><br>
+		  </div> 
+	  </div>
+			
+<!-------------------------- Четвертый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>4. Скрещивают дигетерозиготные растения гороха с желтой окраской и гладкой формой семян. В потомстве ожидается:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest4" value="fa" id="41"> <label for="41">Один фенотип.</label><br>
+		<input type="radio" name="quest4" value="fa" id="42"> <label for="42">Два фенотипа.</label><br>
+		<input type="radio" name="quest4" value="fa" id="43"> <label for="43">Три фенотипа.</label><br>
+		<input type="radio" name="quest4" value="tr" id="44"> <label for="44">Четыре фенотипа.</label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Пятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>5. Скрещивают дигетерозиготные растения гороха с желтой окраской и гладкой формой семян. В потомстве ожидается:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest5" value="fa" id="51"> <label for="51">Шестнадцать разных генотипов.</label><br>
+		<input type="radio" name="quest5" value="fa" id="52"> <label for="52">Двенадцать разных генотипов.</label><br>
+		<input type="radio" name="quest5" value="tr" id="53"> <label for="53">Девять разных генотипов.</label><br>
+		<input type="radio" name="quest5" value="fa" id="54"> <label for="54">Четыре генотипа.</label><br>
+	  </div> 
+  </div>
+   
+<!-------------------------- Шестой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>6. Желтый цвет и гладкая форма горошин — доминантные признаки. У гороха с желтыми и гладкими семенами могут быть генотипы:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="checkbox" name="quest6" value="tr" id="61"> <label for="61">ААBB.</label><br>
+		<input type="checkbox" name="quest6" value="fa" id="62"> <label for="62">AAbb.</label><br>
+		<input type="checkbox" name="quest6" value="fa" id="63"> <label for="63">aaBB.</label><br>
+		<input type="checkbox" name="quest6" value="tr" id="64"> <label for="64">AaBB.</label><br>
+		<input type="checkbox" name="quest6" value="fa" id="65"> <label for="65">Aabb.</label><br>
+		<input type="checkbox" name="quest6" value="tr" id="66"> <label for="66">AaBb.</label><br>
+		<input type="checkbox" name="quest6" value="tr" id="67"> <label for="67">AABb.</label><br>
+		<input type="checkbox" name="quest6" value="fa" id="68"> <label for="68">aaBb.</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Cедьмой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>7. Желтый цвет и гладкая форма горошин — доминантные признаки. У гороха с зелеными и морщинистыми семенами может быть генотип:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest7" value="tr" id="71"> <label for="71">ааbb.</label><br>
+		<input type="radio" name="quest7" value="fa" id="72"> <label for="72">AAbb.</label><br>
+		<input type="radio" name="quest7" value="fa" id="73"> <label for="73">aaBB.</label><br>
+		<input type="radio" name="quest7" value="fa" id="74"> <label for="74">AaBB.</label><br>
+		<input type="radio" name="quest7" value="fa" id="75"> <label for="75">Aabb.</label><br>
+		<input type="radio" name="quest7" value="fa" id="76"> <label for="76">AaBb.</label><br>
+		<input type="radio" name="quest7" value="fa" id="77"> <label for="77">AABb.</label><br>
+		<input type="radio" name="quest7" value="fa" id="78"> <label for="78">aaBb.</label><br>
+	  </div> 
+  </div>
+ 
+<!-------------------------- Восьмой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>8. Желтый цвет (А) и гладкая форма горошин (В) — доминантные признаки. У гороха с зелеными и гладкими семенами могут быть генотипы:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="checkbox" name="quest8" value="fa" id="81"> <label for="81">ААBB.</label><br>
+		<input type="checkbox" name="quest8" value="fa" id="82"> <label for="82">AAbb.</label><br>
+		<input type="checkbox" name="quest8" value="tr" id="83"> <label for="83">aaBB.</label><br>
+		<input type="checkbox" name="quest8" value="fa" id="84"> <label for="84">AaBB.</label><br>
+		<input type="checkbox" name="quest8" value="fa" id="85"> <label for="85">Aabb.</label><br>
+		<input type="checkbox" name="quest8" value="fa" id="86"> <label for="86">аabb.</label><br>
+		<input type="checkbox" name="quest8" value="fa" id="87"> <label for="87">AABb.</label><br>
+		<input type="checkbox" name="quest8" value="tr" id="88"> <label for="88">aaBb.</label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Девятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>9. У томатов круглая форма плодов (А) доминирует над грушевидной (а), красная окраска (В) — над желтой (b).
+Растение с круглыми и красными плодами скрещено с растением, имеющим грушевидные и желтые плоды. В потомстве все растения имеют круглые
+и красные плоды. Генотипы родителей:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest9" value="fa" id="91"> <label for="91">АаBb х aabb.</label><br>
+		<input type="radio" name="quest9" value="fa" id="92"> <label for="92">АаBB х aabb.</label><br>
+		<input type="radio" name="quest9" value="fa" id="93"> <label for="93">АABb х aabb.</label><br>
+		<input type="radio" name="quest9" value="tr" id="94"> <label for="94">АABB х aabb.</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Десятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>10. У томатов круглая форма плодов доминирует над грушевидной, красная окраска — над желтой. Растение с круглыми и
+красными плодами скрещено с растением, имеющим грушевидные и желтые плоды. В потомстве 25% растений с круглыми красными плодами, 25% с
+круглыми желтыми плодами, 25% с грушевидными красными и 25% с грушевидными желтыми плодами. Генотипы родителей:</b></p>
+	<div class="ml-5">
+		<div>
+			<input type="radio" name="quest10" value="tr" id="101"> <label for="101">АаBb х aabb.</label><br>
+			<input type="radio" name="quest10" value="fa" id="102"> <label for="102">АаBB х aabb.</label><br>
+			<input type="radio" name="quest10" value="fa" id="103"> <label for="103">АABb х aabb.</label><br>
+			<input type="radio" name="quest10" value="fa" id="103"> <label for="103">АABB х aabb.</label><br>
+		  </div> 
+	    </div>   
+				
+<!-------------------------- Одиннадцатый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>11. Скрещивание форм, отличающихся друг от друга по двум парам альтернативных признаков, называется:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest11" value="tr" id="111"> <label for="111">дигибридным</label><br>
+		<input type="radio" name="quest11" value="fa" id="112"> <label for="112">полигибридным</label><br>
+		<input type="radio" name="quest11" value="fa" id="113"> <label for="113">моногибридным</label><br>
+		<input type="radio" name="quest11" value="fa" id="114"> <label for="114">анализирующим</label><br>
+		<input type="radio" name="quest11" value="fa" id="115"> <label for="115">неполным</label><br>
+	  </div> 
+  </div>
+ 
+<!-------------------------- Двеннадцатый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>12. Третий закон Менделя иначе называется:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest12" value="fa" id="121"> <label for="121">закон расщепления признаков</label><br>
+		<input type="radio" name="quest12" value="fa" id="122"> <label for="122">закон единообразия гибридов 1–го поколения</label><br>
+		<input type="radio" name="quest12" value="fa" id="123"> <label for="123">закон доминирования</label><br>
+		<input type="radio" name="quest12" value="fa" id="124"> <label for="124">закон чистоты гамет</label><br>
+		<input type="radio" name="quest12" value="tr" id="125"> <label for="125">закон независимого наследования признаков/label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Триннадцатый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>13. Скрещивание растения с красными и круглыми плодами с растением желтыми и грушевидными плодами называют:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest13" value="fa" id="131"> <label for="131">полигибридным</label><br>
+		<input type="radio" name="quest13" value="tr" id="132"> <label for="132">дигибридным</label><br>
+		<input type="radio" name="quest13" value="fa" id="133"> <label for="133">моногибридным</label><br>
+		<input type="radio" name="quest13" value="fa" id="134"> <label for="134">неполным</label><br>
+		<input type="radio" name="quest13" value="fa" id="135"> <label for="135">анализирующим</label><br>
+	  </div> 
+  </div>
+  
+ <!-------------------------- Четырнадцатый вопрос -------------------------->	
+		
+ <p> &nbsp; &nbsp; &nbsp; <b>14. Определите соотношение фенотипов при полном доминировании и независимом наследовании признаков у потомков от
+скрещивания двух дигетерозиготных растений томата.</b></p>
+ <div class="ml-5">
+	 <div>
+		 <input type="radio" name="quest14" value="fa" id="141"> <label for="141">3:1</label><br>
+		 <input type="radio" name="quest14" value="fa" id="142"> <label for="142">1:2:1</label><br>
+		 <input type="radio" name="quest14" value="fa" id="143"> <label for="143">3:1</label><br>
+		 <input type="radio" name="quest14" value="tr" id="144"> <label for="144">9:3:3:1</label><br>
+		 <input type="radio" name="quest14" value="fa" id="145"> <label for="145">1:1</label><br>
+	   </div> 
+   </div>
+
+<!-------------------------- Пятнадцатый вопрос -------------------------->	
+		
+ <p> &nbsp; &nbsp; &nbsp; <b>15. Сколько пар хромосом отвечает за наследование окраски плодов (красная, желтая) и формы плодов (круглая, грушевидная) у томата?</b></p>
+ <div class="ml-5">
+	 <div>
+		 <input type="radio" name="quest15" value="fa" id="151"> <label for="151">одна пара</label><br>
+		 <input type="radio" name="quest15" value="fa" id="152"> <label for="152">пять пар</label><br>
+		 <input type="radio" name="quest15" value="tr" id="153"> <label for="153">две пары</label><br>
+		 <input type="radio" name="quest15" value="fa" id="154"> <label for="154">три пары</label><br>
+		 <input type="radio" name="quest15" value="fa" id="155"> <label for="155">четыре пары</label><br>
+	   </div> 
+   </div>
+    
+  <!-------------------------- Шестнадцатый вопрос -------------------------->	
+		
+  <p> &nbsp; &nbsp; &nbsp; <b>16. Особь с генотипом ААВв  образует гаметы:</b></p>
+  <div class="ml-5">
+	  <div>
+		  <input type="radio" name="quest16" value="tr" id="161"> <label for="161">АВ, Ав</label><br>
+		  <input type="radio" name="quest16" value="fa" id="162"> <label for="162">АВ, Ав, аВ, ав</label><br>
+		  <input type="radio" name="quest16" value="fa" id="163"> <label for="163">Ав, аВ</label><br>
+		  <input type="radio" name="quest16" value="fa" id="164"> <label for="164">Аа, Вв, АА, ВВ</label><br>
+		  <input type="radio" name="quest16" value="fa" id="165"> <label for="165">АВ, АА</label><br>
+		</div> 
+	</div>  
+	
+   <!-------------------------- Семнадцатый вопрос -------------------------->	
+		
+   <p> &nbsp; &nbsp; &nbsp; <b>17. Особь с генотипом АаВВ  образует гаметы:</b></p>
+   <div class="ml-5">
+	   <div>
+		   <input type="radio" name="quest17" value="fa" id="171"> <label for="171">АВ, Ав</label><br>
+		   <input type="radio" name="quest17" value="fa" id="172"> <label for="172">АВ, Ав, аВ, ав</label><br>
+		   <input type="radio" name="quest17" value="fa" id="173"> <label for="173">Ав, аВ</label><br>
+		   <input type="radio" name="quest17" value="fa" id="174"> <label for="174">Аа, Вв, АА, ВВ</label><br>
+		   <input type="radio" name="quest17" value="tr" id="175"> <label for="175">АВ, аВ</label><br>
+		 </div> 
+	 </div>   
+	 
+   <!-------------------------- Восемнадцатый вопрос -------------------------->	
+		
+   <p> &nbsp; &nbsp; &nbsp; <b>18. Особь с генотипом АаВв  образует гаметы:</b></p>
+   <div class="ml-5">
+	   <div>
+		   <input type="radio" name="quest18" value="fa" id="181"> <label for="181">АВ, Ав</label><br>
+		   <input type="radio" name="quest18" value="tr" id="182"> <label for="182">АВ, Ав, аВ, ав</label><br>
+		   <input type="radio" name="quest18" value="fa" id="183"> <label for="183">Ав, аВ</label><br>
+		   <input type="radio" name="quest18" value="fa" id="184"> <label for="184">Аа, Вв, АА, ВВ</label><br>
+		   <input type="radio" name="quest18" value="fa" id="185"> <label for="185">АВ, АА</label><br>
+		 </div> 
+	 </div>  	 
+	 
+   <!-------------------------- Девятнадцатый вопрос -------------------------->	
+		
+   <p> &nbsp; &nbsp; &nbsp; <b>19. Особь с генотипом аавв  образует сорта гамет:</b></p>
+  <div class="ml-5">
+	  <div>
+		  <input type="radio" name="quest19" value="fa" id="191"> <label for="191">АВ, Ав</label><br>
+		  <input type="radio" name="quest19" value="fa" id="192"> <label for="192">АВ, Ав, аВ, ав</label><br>
+		  <input type="radio" name="quest19" value="fa" id="193"> <label for="193">Ав, аВ</label><br>
+		  <input type="radio" name="quest19" value="tr" id="194"> <label for="194">ав</label><br>
+		  <input type="radio" name="quest19" value="fa" id="195"> <label for="195">АВ, Ав</label><br>
+		</div> 
+	</div> 
+         
+<!-------------------------- Двадцатый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>20. Все приведенные ниже признаки, кроме двух, используются для описания дигибридного скрещивания дигетерозигот при
+независимом наследовании. Определите два признака «выпадающих» из списка</b></p>
+	<div class="ml-5">
+		<div>
+			<input type="checkbox" name="quest20" value="fa" id="201"> <label for="201">расщепление по фенотипу 9:3:3:1 при полном доминировании</label><br>
+			<input type="checkbox" name="quest20" value="tr" id="202"> <label for="202">расщепление по генотипу и фенотипу совпадает</label><br>
+			<input type="checkbox" name="quest20" value="fa" id="203"> <label for="203">разные пары аллельных генов находятся в разных парах гомологичных хромосом</label><br>
+			<input type="checkbox" name="quest20" value="tr" id="204"> <label for="204">каждый родитель производит два типа гамет</label><br>
+			<input type="checkbox" name="quest20" value="fa" id="205"> <label for="205">при полном доминировании соблюдается третий закон Менделя</label><br>
+			</div> 
+	    </div> 
+	
+</div>	 
+
+	
+
+ 
+
+
+	<input type="button" value="Проверить ответы" name="answers" onclick="onClick();" class="btn btn-primary">
+	
+	</form>
+	
+	<!-------------------------- Блок вопросов -------------------------->
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </div>   

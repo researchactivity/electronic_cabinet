@@ -23,6 +23,25 @@
 		}
 	</style>
 	
+	<script language="javascript">
+		function onClick() {
+		  const answers = document.querySelectorAll('input')
+			for (const f of answers) {
+			if (f.value=="tr") {
+				$(`label[for="${f.id}"]`).css('color','Lime');
+			}
+			if ((f.checked) && (f.value=="fa")) {
+				//console.log(f.value);
+	
+	
+				$(`label[for="${f.id}"]`).css('color','Red');
+	
+				
+			}
+			}
+		}
+		</script>
+
 
 </head>
 
@@ -65,6 +84,307 @@
 	</div>
 </div>
 <br>
+
+<div class="container">
+	<div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=4582323" allowfullscreen></iframe>
+	</div>
+</div>
+<br>
+
+<div class="container">
+	<div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=4582246" allowfullscreen></iframe>
+	</div>
+</div>
+<br>
+
+<!-------------------------- Блок вопросов -------------------------->	
+<form>
+	<div class="text-justify">
+	
+	<!-------------------------- Первый вопрос -------------------------->
+	
+		<p> &nbsp; &nbsp; &nbsp; <b>1. Правило единообразия гибридов первого поколения проявиться, если генотип одного из родителей аавв, а другого:</b></p>
+		<div class="ml-5">
+			<div>
+				<input type="radio" name="quest1" value="fa" id="11"> <label for="11">ААВв</label><br>
+				<input type="radio" name="quest1" value="fa" id="12"> <label for="12">АаВВ</label><br>
+				<input type="radio" name="quest1" value="tr" id="13"> <label for="13">ААВВ</label><br>
+				<input type="radio" name="quest1" value="fa" id="14"> <label for="14">АаВв</label><br>
+			  </div>
+		  </div>
+
+	<!-------------------------- Второй вопрос -------------------------->	
+		
+		<p> &nbsp; &nbsp; &nbsp; <b>2. Сколько видов гамет образуется у дигетерозиготных растений гороха при дигибридном скрещивании?</b></p>
+		<div class="ml-5">
+			<div>
+				<input type="radio" name="quest2" value="fa" id="21"> <label for="21">1</label><br>
+				<input type="radio" name="quest2" value="fa" id="22"> <label for="22">2</label><br>
+				<input type="radio" name="quest2" value="fa" id="23"> <label for="23">3</label><br>
+				<input type="radio" name="quest2" value="tr" id="24"> <label for="24">4</label><br>
+			  </div> 
+		  </div>
+	
+	<!-------------------------- Третий вопрос -------------------------->	
+		
+	<p> &nbsp; &nbsp; &nbsp; <b>3. Определите генотип родительских растений гороха, если при их скрещивании образовалось 50% растений с желтыми и
+		 50% - с зелеными семенами (рецессивный признак)</b></p>
+	<div class="ml-5">
+		<div>
+			<input type="radio" name="quest3" value="tr" id="31"> <label for="31">АА х аа</label><br>
+			<input type="radio" name="quest3" value="fa" id="32"> <label for="32">Аа х Аа</label><br>
+			<input type="radio" name="quest3" value="fa" id="33"> <label for="33">АА х Аа</label><br>
+			<input type="radio" name="quest3" value="fa" id="34"> <label for="34">Аа х аа</label><br>
+		  </div> 
+	  </div>
+		  
+<!-------------------------- Четвертый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>4. Парные гены, расположенные в гомологичных хромосомах и контролирующие проявление одного и того же признака, называют:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest4" value="tr" id="41"> <label for="41">Аллельными</label><br>
+		<input type="radio" name="quest4" value="fa" id="42"> <label for="42">Доминантными</label><br>
+		<input type="radio" name="quest4" value="fa" id="43"> <label for="43">Рецессивными</label><br>
+		<input type="radio" name="quest4" value="fa" id="44"> <label for="44">Сцепленными</label><br>
+	  </div> 
+  </div>
+	  
+<!-------------------------- Пятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>5. Сколько пар альтернативных признаков, изучают при моногибридном скрещивании?</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest5" value="tr" id="51"> <label for="51">1</label><br>
+		<input type="radio" name="quest5" value="fa" id="52"> <label for="52">2</label><br>
+		<input type="radio" name="quest5" value="fa" id="53"> <label for="53">3</label><br>
+		<input type="radio" name="quest5" value="fa" id="54"> <label for="54">4</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Шестой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>6. Определите, какую закономерность иллюстрирует данная схема:<br>
+	&nbsp; &nbsp; &nbsp; Р: Аа х Аа<br>
+	&nbsp; &nbsp; &nbsp; F1: АА. Аа, Аа, аа</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest6" value="tr" id="61"> <label for="61">Закон расщепления</label><br>
+		<input type="radio" name="quest6" value="fa" id="62"> <label for="62">Правило единообразия</label><br>
+		<input type="radio" name="quest6" value="fa" id="63"> <label for="63">Закон сцепленного наследования</label><br>
+		<input type="radio" name="quest6" value="fa" id="64"> <label for="64">Хромосомную теорию наследственности</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Cедьмой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>7. У собак черная шерсть (А) доминирует над коричневой окраской (а), а коротконогость (В) – над нормальной длиной ног
+(в). выберите генотип черной коротконогой собаки, гетерозиготной только по признаку длины ног:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest7" value="fa" id="71"> <label for="71">ААВв</label><br>
+		<input type="radio" name="quest7" value="fa" id="72"> <label for="72">Аавв</label><br>
+		<input type="radio" name="quest7" value="tr" id="73"> <label for="73">АаВв</label><br>
+		<input type="radio" name="quest7" value="fa" id="74"> <label for="74">ААВВ</label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Восьмой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>8. Преобладающий признак одного из родителей Г. Мендель назвал:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest8" value="fa" id="81"> <label for="81">Рецессивным</label><br>
+		<input type="radio" name="quest8" value="tr" id="82"> <label for="82">Доминантным</label><br>
+		<input type="radio" name="quest8" value="fa" id="83"> <label for="83">Гомозигоным</label><br>
+		<input type="radio" name="quest8" value="fa" id="84"> <label for="84">Гетерозиготным</label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Девятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>9. Для установления генотипа фенотипически сходных организмов проводят скрещивание с:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest9" value="fa" id="91"> <label for="91">Гетерозиготой</label><br>
+		<input type="radio" name="quest9" value="fa" id="92"> <label for="92">Гомозиготой по доминантному признаку</label><br>
+		<input type="radio" name="quest9" value="tr" id="93"> <label for="93">Гомозиготой по рецессивному признаку</label><br>
+		<input type="radio" name="quest9" value="fa" id="94"> <label for="94">Потомков между собой</label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Десятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>10. В качестве материала для своих исследований Г.Мендель использовал:</b></p>
+	<div class="ml-5">
+		<div>
+			<input type="radio" name="quest10" value="fa" id="101"> <label for="101">Семена фасоли</label><br>
+			<input type="radio" name="quest10" value="tr" id="102"> <label for="102">Семена гороха</label><br>
+			<input type="radio" name="quest10" value="fa" id="103"> <label for="103">Клубни картофеля</label><br>
+		  </div> 
+	    </div>   
+		
+<!-------------------------- Одиннадцатый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>11. Первый закон Менделя иначе называется:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="checkbox" name="quest11" value="fa" id="111"> <label for="111">закон расщепления признаков</label><br>
+		<input type="checkbox" name="quest11" value="tr" id="112"> <label for="112">закон единообразия гибридов 1–го поколения</label><br>
+		<input type="checkbox" name="quest11" value="tr" id="113"> <label for="113">закон доминирования</label><br>
+		<input type="checkbox" name="quest11" value="fa" id="114"> <label for="114">закон чистоты гамет</label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Двеннадцатый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>12. Какая часть особей с рецессивным признаком проявится в первом поколении (F1) при скрещивании
+ двух гетерозиготных по данному признаку родителей?</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest12" value="fa" id="121"> <label for="121">100%</label><br>
+		<input type="radio" name="quest12" value="fa" id="122"> <label for="122">50%</label><br>
+		<input type="radio" name="quest12" value="tr" id="123"> <label for="123">25%</label><br>
+		<input type="radio" name="quest12" value="fa" id="124"> <label for="124">75%</label><br>
+		<input type="radio" name="quest12" value="fa" id="125"> <label for="125">0%</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Триннадцатый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>13. Явление доминирования и расщепления признаков можно объяснить:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="checkbox" name="quest13" value="tr" id="131"> <label for="131">парностью хромосом</label><br>
+		<input type="checkbox" name="quest13" value="tr" id="132"> <label for="132">расхождением хромосом во время мейоза</label><br>
+		<input type="checkbox" name="quest13" value="fa" id="133"> <label for="133">не расхождением хромосом во время мейоза</label><br>
+		<input type="checkbox" name="quest13" value="tr" id="134"> <label for="134">объединением хромосом во время оплодотворения</label><br>
+		<input type="checkbox" name="quest13" value="fa" id="135"> <label for="135">одинарностью хромосом</label><br>
+	  </div> 
+  </div>
+
+ <!-------------------------- Четырнадцатый вопрос -------------------------->	
+		
+ <p> &nbsp; &nbsp; &nbsp; <b>14. Определи верные  утверждения.</b></p>
+ <div class="ml-5">
+	 <div>
+		 <input type="checkbox" name="quest14" value="tr" id="141"> <label for="141">доминантная гомозигота обозначается АА. </label><br>
+		 <input type="checkbox" name="quest14" value="fa" id="142"> <label for="142">гены, определяющие развитее разных признаков, называются аллельными.</label><br>
+		 <input type="checkbox" name="quest14" value="fa" id="143"> <label for="143">родительские особи обозначаются F.</label><br>
+		 <input type="checkbox" name="quest14" value="tr" id="144"> <label for="144">Мендель открыл законы  наследственности.</label><br>
+		 <input type="checkbox" name="quest14" value="fa" id="145"> <label for="145">рецессивный признак – это подавляющий признак. </label><br>
+		 <input type="checkbox" name="quest14" value="tr" id="146"> <label for="146">совокупность всех внешних и внутренних признаков называется фенотипом.</label><br>
+		 <input type="checkbox" name="quest14" value="fa" id="147"> <label for="147">наследственность – это свойство всех живых организмов приобретать новые признаки в процессе индивидуального развития.</label><br>
+		 <input type="checkbox" name="quest14" value="tr" id="148"> <label for="148">гибриды первого поколения обозначаются F1.</label><br>
+	   </div> 
+   </div>
+
+ <!-------------------------- Пятнадцатый вопрос -------------------------->	
+		
+ <p> &nbsp; &nbsp; &nbsp; <b>15. Двух  серых крыс скрестили с белым самцом. Первая самка принесла 7 серых крысят, у второй самки родились
+5 белых и 4 серых крысенка (Верных ответов: 2).</b></p>
+ <div class="ml-5">
+	 <div>
+		 <input type="checkbox" name="quest15" value="fa" id="151"> <label for="151">2 - ♀доминантная гомозигота, (F) гетерозигота.</label><br>
+		 <input type="checkbox" name="quest15" value="tr" id="152"> <label for="152">2 - ♀гетерозигота, (F) рецессивная гомозигота, гетерозигота.</label><br>
+		 <input type="checkbox" name="quest15" value="fa" id="153"> <label for="153">1 - ♀гетерозигота, (F) доминантная и рецессивная гомозигота.</label><br>
+		 <input type="checkbox" name="quest15" value="tr" id="154"> <label for="154">1 - ♀ доминантная гомозигота,  (F) гетерозигота.</label><br>
+		 <input type="checkbox" name="quest15" value="fa" id="155"> <label for="155">1 - ♀рецессивная гомозигота, (F) гетерозигота.</label><br>
+		 <input type="checkbox" name="quest15" value="fa" id="156"> <label for="156">2 - ♀ гетерозигота, (F) доминантная гомозигота, гетерозигота.</label><br>
+	   </div> 
+   </div>
+
+  <!-------------------------- Шестнадцатый вопрос -------------------------->	
+		
+  <p> &nbsp; &nbsp; &nbsp; <b>16. Определи НЕверные утверждения.</b></p>
+  <div class="ml-5">
+	  <div>
+		  <input type="checkbox" name="quest16" value="fa" id="161"> <label for="161">ген – это элементарная единица наследственности</label><br>
+		  <input type="checkbox" name="quest16" value="tr" id="162"> <label for="162">гены, расположенные в гомологичных хромосомах в разных локусах, называются 
+			аллельными</label><br>
+		  <input type="checkbox" name="quest16" value="fa" id="163"> <label for="163">парные хромосомы называются гомологичными</label><br>
+		  <input type="checkbox" name="quest16" value="tr" id="164"> <label for="164">геном – совокупность хромосом соматических клеток</label><br>
+		</div> 
+	</div>  
+
+   <!-------------------------- Семнадцатый вопрос -------------------------->	
+		
+   <p> &nbsp; &nbsp; &nbsp; <b>17. Назови процесс, который происходит, согласно закону расщепления</b></p>
+   <div class="ml-5">
+	   <div>
+		   <input type="radio" name="quest17" value="fa" id="171"> <label for="171">появление особей с рецессивными признаками</label><br>
+		   <input type="radio" name="quest17" value="fa" id="172"> <label for="172">появление особей с признаками, нехарактерными для обоих родителей</label><br>
+		   <input type="radio" name="quest17" value="fa" id="173"> <label for="173">появление особей с доминантными признаками</label><br>
+		   <input type="radio" name="quest17" value="tr" id="174"> <label for="174">появление особей с признаками обоих родителей</label><br>
+		   <input type="radio" name="quest17" value="fa" id="175"> <label for="175">появление особей с признаками, характерными для одного из родителей</label><br>
+		 </div> 
+	 </div>   
+	
+   <!-------------------------- Восемнадцатый вопрос -------------------------->	
+		
+   <p> &nbsp; &nbsp; &nbsp; <b>18. При скрещивании особей с генотипами Аа и Аа (при полном доминировании) происходит расщепление в потомстве
+по фенотипу в соотношении</b></p>
+   <div class="ml-5">
+	   <div>
+		   <input type="radio" name="quest18" value="tr" id="181"> <label for="181">3:1</label><br>
+		   <input type="radio" name="quest18" value="fa" id="182"> <label for="182">1:2:1</label><br>
+		   <input type="radio" name="quest18" value="fa" id="183"> <label for="183">3:1</label><br>
+		   <input type="radio" name="quest18" value="fa" id="184"> <label for="184">9:3:3:1</label><br>
+		   <input type="radio" name="quest18" value="fa" id="185"> <label for="185">1:1</label><br>
+		 </div> 
+	 </div>  	 
+
+   <!-------------------------- Девятнадцатый вопрос -------------------------->	
+		
+   <p> &nbsp; &nbsp; &nbsp; <b>19. Явление возникновения из желтых гибридов F1 желтых и зеленых потомков в соотношении 3:1 было названо</b></p>
+  <div class="ml-5">
+	  <div>
+		  <input type="radio" name="quest19" value="fa" id="191"> <label for="191">законом чистоты гамет</label><br>
+		  <input type="radio" name="quest19" value="fa" id="192"> <label for="192">законом единообразия гибридов 1–го поколения</label><br>
+		  <input type="radio" name="quest19" value="fa" id="193"> <label for="193">законом доминирования</label><br>
+		  <input type="radio" name="quest19" value="tr" id="194"> <label for="194">законом расщепления признаков </label><br>
+		  <input type="radio" name="quest19" value="fa" id="195"> <label for="195">законом независимого наследования признаков</label><br>
+		</div> 
+	</div> 
+	 
+<!-------------------------- Двадцатый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>20. Все приведённые ниже характеристики, кроме двух, используются для описания моногибридного
+скрещивания гетерозигот. Определите два термина, «выпадающих» из общего списка, и выберите  цифры, под которыми они указаны.</b></p>
+	<div class="ml-5">
+		<div>
+			<input type="checkbox" name="quest20" value="fa" id="201"> <label for="201">в потомстве преобладают гетерозиготы</label><br>
+			<input type="checkbox" name="quest20" value="tr" id="202"> <label for="202">расщепление по генотипу и по фенотипу всегда одинаково</label><br>
+			<input type="checkbox" name="quest20" value="fa" id="203"> <label for="203">каждый родитель производит два типа гамет</label><br>
+			<input type="checkbox" name="quest20" value="fa" id="204"> <label for="204">при полном доминировании соблюдается второй закон Менделя</label><br>
+			<input type="checkbox" name="quest20" value="tr" id="205"> <label for="205">в потомстве образуется четыре фенотипических класса</label><br>
+			</div> 
+	    </div> 
+		
+</div>	 
+
+	
+
+ 
+
+
+	<input type="button" value="Проверить ответы" name="answers" onclick="onClick();" class="btn btn-primary">
+	
+	</form>
+	
+	<!-------------------------- Блок вопросов -------------------------->
+
+<br>
+
+
+
+
+
+
+
+
 
 
 </div>   

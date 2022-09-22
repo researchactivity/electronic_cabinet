@@ -24,6 +24,26 @@
 	</style>
 	
 
+	<script language="javascript">
+		function onClick() {
+		  const answers = document.querySelectorAll('input')
+			for (const f of answers) {
+			if (f.value=="tr") {
+				$(`label[for="${f.id}"]`).css('color','Lime');
+			}
+			if ((f.checked) && (f.value=="fa")) {
+				//console.log(f.value);
+	
+	
+				$(`label[for="${f.id}"]`).css('color','Red');
+	
+				
+			}
+			}
+		}
+		</script>
+
+
 </head>
 
 
@@ -44,14 +64,160 @@
 <h1 class="display-4">5.4. Множественный аллелизм. Группы крови: тесты для самопроверки</h1>
 <br>
 
-???
 
 <div class="container">
 	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=4582410" allowfullscreen></iframe>
+		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=15805415"></iframe>
 	</div>
 </div>
 <br>
+
+<div class="container">
+	<div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=16216609"></iframe>
+	</div>
+</div>
+<br>
+
+<!-------------------------- Блок вопросов -------------------------->	
+<form>
+	<div class="text-justify">
+	
+	<!-------------------------- Первый вопрос -------------------------->
+	
+		<p> &nbsp; &nbsp; &nbsp; <b>1. Оба аллельных гена полностью проявляются у гетерозиготных особей при:</b></p>
+		<div class="ml-5">
+			<div>
+				<input type="radio" name="quest1" value="tr" id="11"> <label for="11">кодоминировании</label><br>
+				<input type="radio" name="quest1" value="fa" id="12"> <label for="12">анализирующем скрещивании</label><br>
+				<input type="radio" name="quest1" value="fa" id="13"> <label for="13">полном доминировании</label><br>
+				<input type="radio" name="quest1" value="fa" id="14"> <label for="14">неполном доминировании</label><br>
+			  </div>
+		  </div>
+					  
+	<!-------------------------- Второй вопрос -------------------------->	
+		
+		<p> &nbsp; &nbsp; &nbsp; <b>2. Гетерозиготные по группам крови родители (у матери 2, у отца 3) имеют ребенка. Какова вероятность,
+		 что у него 1 группа крови?</b></p>
+		<div class="ml-5">
+			<div>
+				<input type="radio" name="quest2" value="tr" id="21"> <label for="21">25%</label><br>
+				<input type="radio" name="quest2" value="fa" id="22"> <label for="22">0%</label><br>
+				<input type="radio" name="quest2" value="fa" id="23"> <label for="23">50%</label><br>
+				<input type="radio" name="quest2" value="fa" id="24"> <label for="24">75%</label><br>
+			  </div> 
+		  </div>
+
+		  <!-------------------------- Третий вопрос -------------------------->	
+		
+	<p> &nbsp; &nbsp; &nbsp; <b>3. У родителей 1 и 4 группы крови. Какие группы крови можно ожидать у детей?</b></p>
+	<div class="ml-5">
+		<div>
+			<input type="radio" name="quest3" value="fa" id="31"> <label for="31">1,4</label><br>
+			<input type="radio" name="quest3" value="tr" id="32"> <label for="32">2, 3</label><br>
+			<input type="radio" name="quest3" value="fa" id="33"> <label for="33">1, 3</label><br>
+			<input type="radio" name="quest3" value="fa" id="34"> <label for="34">только 4</label><br>
+		  </div> 
+	  </div>
+
+<!-------------------------- Четвертый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>4. У ребенка группа крови 4, а у отца 3. Какая группа крови у матери?</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest4" value="fa" id="41"> <label for="41">1</label><br>
+		<input type="radio" name="quest4" value="tr" id="42"> <label for="42">2</label><br>
+		<input type="radio" name="quest4" value="fa" id="43"> <label for="43">3</label><br>
+		<input type="radio" name="quest4" value="fa" id="44"> <label for="44">4</label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Пятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>5. У родителей, имеющих 3 и 1 группу крови, родился ребенок с 1 группой крови. Какова вероятность,
+что следующий ребенок будет иметь группу крови 1?</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest5" value="fa" id="51"> <label for="51">25%</label><br>
+		<input type="radio" name="quest5" value="fa" id="52"> <label for="52">0%</label><br>
+		<input type="radio" name="quest5" value="tr" id="53"> <label for="53">50%</label><br>
+		<input type="radio" name="quest5" value="fa" id="54"> <label for="54">75%</label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Шестой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>6. Какие группы крови могут быть у детей, если у обоих родителей 4 группа крови?</b></p>
+<div class="ml-5">
+	<div>
+		<input type="checkbox" name="quest6" value="fa" id="61"> <label for="61">1</label><br>
+		<input type="checkbox" name="quest6" value="tr" id="62"> <label for="62">2</label><br>
+		<input type="checkbox" name="quest6" value="tr" id="63"> <label for="63">3</label><br>
+		<input type="checkbox" name="quest6" value="tr" id="64"> <label for="64">4</label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Cедьмой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>7. Генотип человека с 4 группой крови:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest7" value="fa" id="71"> <label for="71">IO IO</label><br>
+		<input type="radio" name="quest7" value="fa" id="72"> <label for="72">IA IA</label><br>
+		<input type="radio" name="quest7" value="fa" id="73"> <label for="73">IB IB</label><br>
+		<input type="radio" name="quest7" value="tr" id="74"> <label for="74">IA IB</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Восьмой вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>8. Отношения между генами IA и IB называются:</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest8" value="fa" id="81"> <label for="81">полным доминированием</label><br>
+		<input type="radio" name="quest8" value="tr" id="82"> <label for="82">кодоминированием</label><br>
+		<input type="radio" name="quest8" value="fa" id="83"> <label for="83">сверхдоминированием</label><br>
+		<input type="radio" name="quest8" value="fa" id="84"> <label for="84">неполным доминированием</label><br>
+	  </div> 
+  </div>
+  
+<!-------------------------- Девятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>9. У мальчика I группа крови, у его сестры – IV. Могут ли другие их братья и сестры иметь группы крови своих родителей?</b></p>
+<div class="ml-5">
+	<div>
+		<input type="radio" name="quest9" value="fa" id="91"> <label for="91">могут иметь только группу крови отца</label><br>
+		<input type="radio" name="quest9" value="fa" id="92"> <label for="92">не могут</label><br>
+		<input type="radio" name="quest9" value="tr" id="93"> <label for="93">могут</label><br>
+		<input type="radio" name="quest9" value="fa" id="94"> <label for="94">могут иметь только группу крови матери</label><br>
+	  </div> 
+  </div>
+
+<!-------------------------- Десятый вопрос -------------------------->	
+		
+<p> &nbsp; &nbsp; &nbsp; <b>10. В родильном доме перепутали двух мальчиков с фамилией Иванов, рожденных в один день. У одного ребенка 1 группа
+крови, у другого 2-я. Известно, что родители одного малыша имеют 1 и 4 группу крови, а родители второго оба с 3-й группой крови.
+Определите, кто чей сын.</b></p>
+	<div class="ml-5">
+		<div>
+			<input type="radio" name="quest10" value="tr" id="101"> <label for="101">ребенок с 1 группой крови сын родителей с 3-й группой,
+				а мальчик со 2 группой - сын родителей с 1 и 4 группой</label><br>
+			<input type="radio" name="quest10" value="fa" id="102"> <label for="102">ребенок с 1 группой крови сын родителей с 1 и 4 группой,
+				а ребенок со 2 группой крови - сын родителей с 3 группой</label><br>
+		  </div> 
+	    </div>   
+
+	   
+</div>	 
+
+	<input type="button" value="Проверить ответы" name="answers" onclick="onClick();" class="btn btn-primary">
+	
+	</form>
+	
+	<!-------------------------- Блок вопросов -------------------------->
+
+<br>
+
 
 
 </div>   
