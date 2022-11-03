@@ -28,23 +28,23 @@
     } 
 
 
+html, body {
+
+    overflow-x: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-size: 20px;
   font-family: "GraphikLCG Regular"; }
 
-html, body {
-  overflow-x: hidden;
-}
 
 .clouds {
   position: absolute;
   right: -45%;
   top: 20px;
-  /*animation: clouds 50s linear infinite; */
   animation: clouds 50s linear infinite;
-
   z-index: 0;
   display: block;
 }
@@ -65,7 +65,6 @@ animation-delay: 30s;
 }
 
 
-
 p {
   margin: 0; }
 
@@ -77,7 +76,9 @@ p {
 .header {
   background: #173042 url("../img/priroda03.jpg") no-repeat top/cover;
   color: #fff;
-  padding-top: 36px; }
+  padding-top: 36px;
+  width: 100%;
+  }
   .header__title {
     font-family: "Emirald Script";
     font-size: 86px;
@@ -219,9 +220,7 @@ h4 {
 
 .about {
   background: #173042 url("../img/people_photo.jpg") no-repeat top/cover; }
-}
-.about__bg {
-  background-color: #f8fbfa; }
+
   .about__bg h4 {
     font-family: "GraphikLCG-Black";
     margin: 50px 0 60px; }
@@ -366,9 +365,8 @@ h4 {
 
 .virt {
   background: #173042 url("../img/virt4.jpg") no-repeat top/cover; }
-}
-.virt__bg {
-  background-color: #f8fbfa; }
+
+
   .about__bg h4 {
     font-family: "GraphikLCG-Black";
     margin: 50px 0 60px; }
@@ -506,3 +504,79 @@ hr {
 .centr p {
   text-align: center;
 }
+
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+
+@media (max-width: 576px) {
+  .clouds, .clouds-delay {
+    display: none; }
+	
+  .famous img.small {
+		width: 100%; }
+  
+}
+
+
+
+@media (max-width: 768px) {
+	.monument img.wide {
+		width: 100%; }
+	
+}
+
+
+@media (max-width: 992px) {
+	.header {
+		background: #173042 url("../img/priroda.jpg") no-repeat top/cover; }
+	
+	.virt {
+		background: #fff url("../img/virt1.jpg") no-repeat top/cover; }
+
+	iframe {
+    height: 400px;}
+	
+	.history img {
+	width: 100%;}
+	
+	.famous img.wide {
+		width: 100%; }
+		
+	.monument img.superwide {
+		width: 100%; }
+	
+}
+
+@media (max-width: 1200px) {
+  .memorial .container {
+  background: #E0E1E5 url("../img/vov1.jpg") no-repeat top/cover; }
+  
+  .why .container {
+  background: url("../img/Magician.jpg") no-repeat top/cover; }
+  
+  .why {
+  background: #c6eded url("../img/Magician5.jpg") no-repeat top/cover; }
+  
+  .memorial  {
+  background: #173042 url("../img/vov2.jpg") no-repeat top/cover; }
+  
+  .memorial .container {
+  background:  url("../img/vov1.jpg") no-repeat top/cover; }
+  
+  
+  
+  }
+  
+
+  
+  
+
+
+
+
+
+
