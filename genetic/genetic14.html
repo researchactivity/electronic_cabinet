@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<title>ГЕНЕТИКА: теория, задачи, тесты</title>
-
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
 
 	<style>
 		html {
-			background: url(img/bg.jpg) no-repeat left top fixed;
+			overflow-x: hidden;
+			background: url(img/bg.jpg) no-repeat left top;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
 			background-size: cover;
 		}
-		
 		img {
 			border: 2px solid #aaa;
 		}
+		body {
+			overflow-x: hidden;
+		}
 	</style>
 
-<script language="javascript">
-	function onClick() {
-	  const answers = document.querySelectorAll('input')
-		for (const f of answers) {
-		if (f.value=="tr") {
-			$(`label[for="${f.id}"]`).css('color','Lime');
-		}
-		if ((f.checked) && (f.value=="fa")) {
-			//console.log(f.value);
+	<script language="javascript">
+		function onClick() {
+			const answers = document.querySelectorAll('input')
+			for (const f of answers) {
+				if (f.value == "tr") {
+					$(`label[for="${f.id}"]`).css('color', 'Lime');
+				}
+				if ((f.checked) && (f.value == "fa")) {
+					//console.log(f.value);
 
 
-			$(`label[for="${f.id}"]`).css('color','Red');
+					$(`label[for="${f.id}"]`).css('color', 'Red');
 
-			
+
+				}
+			}
 		}
-		}
-	}
 	</script>
 
 
@@ -47,395 +51,521 @@
 </head>
 
 
+<body class="text-center" style="margin: 100px 20px;">
+
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+
+				<div>
+					<a class="btn btn-info" href="genetic1.html" role="button" style="margin-top: 24px;">Назад в раздел<br>
+						"1. Основные термины и понятия"</a>
+				</div>
 
 
-<body class="text-center" style="margin: 100px;">
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-<div>
-	<a class="btn btn-info" href="genetic1.html" role="button" style="margin-top: 24px;">Назад в раздел "1. Основные термины и понятия"</a>
-</div>
-
-
-<div class="m-4">
-<br>
-<h1 class="display-4">1.4. Основные термины и понятия: тесты для самопроверки</h1>
-<br>
-
-
-
-<div class="container">
-	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=2292883" allowfullscreen></iframe>
-	</div>
-</div>
-
-<br>
-
-<div class="container">
-	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=18042470" allowfullscreen></iframe>
-	</div>
-</div>
-
-<br>
-
-<div class="container">
-	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=2034860" allowfullscreen></iframe>
-	</div>
-</div>
-
-<br>
-
-<div class="container">
-	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=14587484" allowfullscreen></iframe>
-	</div>
-</div>
-
-<br>
-
-<div class="container">
-	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=158023" allowfullscreen></iframe>
-	</div>
-</div>
-
-<br>
-
-<div class="container">
-	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=11069946" allowfullscreen></iframe>
-	</div>
-</div>
-
-<br>
-
-<div class="container">
-	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=3947963" allowfullscreen></iframe>
-	</div>
-</div>
-
-<br>
-
-<div class="container">
-	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=22602898" allowfullscreen></iframe>
-	</div>
-</div>
-
-<br>
+				<div>
+					<br>
+					<h1 class="display-5">1.4. Основные термины и понятия: тесты для самопроверки</h1>
+					<br>
 
 
 
+					<div class="container">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=2292883"
+								allowfullscreen></iframe>
+						</div>
+					</div>
 
-<!-------------------------- Блок вопросов -------------------------->	
-<form>
-	<div class="text-justify">
-	
-	<!-------------------------- Первый вопрос -------------------------->
-	
-		<p> &nbsp; &nbsp; &nbsp; <b>1. Наука о наследственности и изменчивости – это</b></p>
-		<div class="ml-5">
-			<div>
-				<input type="radio" name="quest1" value="tr" id="11"> <label for="11">генетика</label><br>
-				<input type="radio" name="quest1" value="fa" id="12"> <label for="12">цитология</label><br>
-				<input type="radio" name="quest1" value="fa" id="13"> <label for="13">эмбриология</label><br>
-				<input type="radio" name="quest1" value="fa" id="14"> <label for="14">гистология</label><br>
-				<input type="radio" name="quest1" value="fa" id="15"> <label for="15">селекция</label><br>
-			  </div>
-		  </div>
-	
-	<!-------------------------- Второй вопрос -------------------------->	
-		
-		<p> &nbsp; &nbsp; &nbsp; <b>2. Основателем генетики как науки считается </b></p>
-		<div class="ml-5">
-			<div>
-				<input type="radio" name="quest2" value="fa" id="21"> <label for="21">Томас Морган</label><br>
-				<input type="radio" name="quest2" value="tr" id="22"> <label for="22">Грегор Мендель</label><br>
-				<input type="radio" name="quest2" value="fa" id="23"> <label for="23">Карл Линней</label><br>
-				<input type="radio" name="quest2" value="fa" id="24"> <label for="24">Чарльз Дарвин</label><br>
-				<input type="radio" name="quest2" value="fa" id="25"> <label for="25">Жан Батист Ламарк</label><br>
-			  </div> 
-		  </div>
-	
-	
-	<!-------------------------- Третий вопрос -------------------------->	
-		
-	<p> &nbsp; &nbsp; &nbsp; <b>3. Законы Грегора Менделя независимо друг от друга переоткрыли:</b></p>
-	<div class="ml-5">
-		<div>
-			<input type="checkbox" name="quest3" value="fa" id="31"> <label for="31">Чарлз Дарвин</label><br>
-			<input type="checkbox" name="quest3" value="tr" id="32"> <label for="32">Гуго Де Фриз</label><br>
-			<input type="checkbox" name="quest3" value="tr" id="33"> <label for="33">Карл Корренс</label><br>
-			<input type="checkbox" name="quest3" value="fa" id="34"> <label for="34">Карл Линней</label><br>
-			<input type="checkbox" name="quest3" value="tr" id="34"> <label for="34">Эрих Чермах</label><br>
-		  </div> 
-	  </div>
-		
-<!-------------------------- Четвертый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>4. Официальной датой рождения генетики считается:</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest4" value="fa" id="41"> <label for="41">1865</label><br>
-		<input type="radio" name="quest4" value="fa" id="42"> <label for="42">1859</label><br>
-		<input type="radio" name="quest4" value="fa" id="43"> <label for="43">1839</label><br>
-		<input type="radio" name="quest4" value="tr" id="44"> <label for="44">1900</label><br>
-		<input type="radio" name="quest4" value="fa" id="45"> <label for="45">1860</label><br>
-	  </div> 
-  </div>
-	  
-	  
-<!-------------------------- Пятый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>5. Способность организмов приобретать новые признаки под воздействием различных факторов - это</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest5" value="fa" id="51"> <label for="51">мутация</label><br>
-		<input type="radio" name="quest5" value="fa" id="52"> <label for="52">селекция</label><br>
-		<input type="radio" name="quest5" value="fa" id="53"> <label for="53">генетика</label><br>
-		<input type="radio" name="quest5" value="fa" id="54"> <label for="54">наследственность</label><br>
-		<input type="radio" name="quest5" value="tr" id="55"> <label for="55">изменчивость</label><br>
-	  </div> 
-  </div>
-  
-  
-<!-------------------------- Шестой вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>6. Способность организмов передавать признаки и гены от родителей к потомкам - это</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest6" value="tr" id="61"> <label for="61">наследственность</label><br>
-		<input type="radio" name="quest6" value="fa" id="62"> <label for="62">изменчивость</label><br>
-		<input type="radio" name="quest6" value="fa" id="63"> <label for="63">генетика</label><br>
-		<input type="radio" name="quest6" value="fa" id="64"> <label for="64">мутация</label><br>
-		<input type="radio" name="quest6" value="fa" id="65"> <label for="65">селекция</label><br>
-	  </div> 
-  </div>
-  
+					<br>
 
-<!-------------------------- Cедьмой вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>7. Основной метод исследования в генетике, основанный на скрещивании, гибридизации, - это</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest7" value="fa" id="71"> <label for="71">близнецовый</label><br>
-		<input type="radio" name="quest7" value="tr" id="72"> <label for="72">гибридологический</label><br>
-		<input type="radio" name="quest7" value="fa" id="73"> <label for="73">расщепление</label><br>
-		<input type="radio" name="quest7" value="fa" id="74"> <label for="74">генеалогический</label><br>
-		<input type="radio" name="quest7" value="fa" id="75"> <label for="75">цитологический</label><br>
-	  </div> 
-  </div>
+					<div class="container">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=18042470"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<br>
+
+					<div class="container">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=2034860"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<br>
+
+					<div class="container">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=14587484"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<br>
+
+					<div class="container">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=158023"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<br>
+
+					<div class="container">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=11069946"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<br>
+
+					<div class="container">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=3947963"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<br>
+
+					<div class="container">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://learningapps.org/watch?app=22602898"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<br>
 
 
-<!-------------------------- Восьмой вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>8. Впервые применил гибридологический метод в генетике</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest8" value="fa" id="81"> <label for="81">Карл Линней</label><br>
-		<input type="radio" name="quest8" value="fa" id="82"> <label for="82">Томас Морган</label><br>
-		<input type="radio" name="quest8" value="tr" id="83"> <label for="83">Грегор Мендель</label><br>
-		<input type="radio" name="quest8" value="fa" id="84"> <label for="84">Чарльз Дарвин</label><br>
-		<input type="radio" name="quest8" value="fa" id="85"> <label for="85">Жан Батист Ламарк</label><br>
-	  </div> 
-  </div>
-
-  
-<!-------------------------- Девятый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>9. Скрещивание особей, относящихся к различным линиям, сортам, породам, видам, родам растений или животных, называется </b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest9" value="fa" id="91"> <label for="91">домирование</label><br>
-		<input type="radio" name="quest9" value="fa" id="92"> <label for="92">клонирование</label><br>
-		<input type="radio" name="quest9" value="fa" id="93"> <label for="93">мутагенезом</label><br>
-		<input type="radio" name="quest9" value="tr" id="94"> <label for="94">гибридизацией</label><br>
-		<input type="radio" name="quest9" value="fa" id="95"> <label for="95">инбридигом</label><br>
-	  </div> 
-  </div>
-
-<!-------------------------- Десятый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>10. Выбери основные преимущества гороха как объекта исследования в генетике:</b></p>
-	<div class="ml-5">
-		<div>
-			<input type="checkbox" name="quest10" value="tr" id="101"> <label for="101">небольшое число признаков (семь)</label><br>
-			<input type="checkbox" name="quest10" value="fa" id="102"> <label for="102">большое число признаков</label><br>
-			<input type="checkbox" name="quest10" value="tr" id="103"> <label for="103">всего по два альтернативных признака</label><br>
-			<input type="checkbox" name="quest10" value="tr" id="104"> <label for="104">самоопыляемость</label><br>
-			<input type="checkbox" name="quest10" value="fa" id="104"> <label for="104">перекрестноопыляемость</label><br>
-		  </div> 
-	    </div>   
 
 
-	
-<!-------------------------- Одиннадцатый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>11. Соматические клетки содержат набор хромосом </b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest11" value="fa" id="111"> <label for="111">гаплоидный</label><br>
-		<input type="radio" name="quest11" value="fa" id="112"> <label for="112">полиплоидный</label><br>
-		<input type="radio" name="quest11" value="fa" id="113"> <label for="113">одинарный</label><br>
-		<input type="radio" name="quest11" value="fa" id="114"> <label for="114">тетраплоидный</label><br>
-		<input type="radio" name="quest11" value="tr" id="115"> <label for="115">диплоидный</label><br>
-	  </div> 
-  </div>
+					<!-------------------------- Блок вопросов -------------------------->
+					<form>
+						<div class="text-justify">
+
+							<!-------------------------- Первый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>1. Наука о наследственности и изменчивости – это</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest1" value="tr" id="11"> <label
+										for="11">генетика</label><br>
+									<input type="radio" name="quest1" value="fa" id="12"> <label
+										for="12">цитология</label><br>
+									<input type="radio" name="quest1" value="fa" id="13"> <label
+										for="13">эмбриология</label><br>
+									<input type="radio" name="quest1" value="fa" id="14"> <label
+										for="14">гистология</label><br>
+									<input type="radio" name="quest1" value="fa" id="15"> <label
+										for="15">селекция</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Второй вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>2. Основателем генетики как науки считается </b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest2" value="fa" id="21"> <label for="21">Томас
+										Морган</label><br>
+									<input type="radio" name="quest2" value="tr" id="22"> <label for="22">Грегор
+										Мендель</label><br>
+									<input type="radio" name="quest2" value="fa" id="23"> <label for="23">Карл
+										Линней</label><br>
+									<input type="radio" name="quest2" value="fa" id="24"> <label for="24">Чарльз
+										Дарвин</label><br>
+									<input type="radio" name="quest2" value="fa" id="25"> <label for="25">Жан Батист
+										Ламарк</label><br>
+								</div>
+							</div>
 
 
-<!-------------------------- Двеннадцатый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>12. Набор хромосом в соматических клетках тела человека равен:</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest12" value="fa" id="121"> <label for="121">48</label><br>
-		<input type="radio" name="quest12" value="tr" id="122"> <label for="122">46</label><br>
-		<input type="radio" name="quest12" value="fa" id="123"> <label for="123">44</label><br>
-		<input type="radio" name="quest12" value="fa" id="124"> <label for="124">23</label><br>
-		<input type="radio" name="quest12" value="fa" id="125"> <label for="125">24</label><br>
-	  </div> 
-  </div>
-  
- <!-------------------------- Триннадцатый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>13. Половые клетки содержат набор хромосом</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest13" value="tr" id="131"> <label for="131">гаплоидный</label><br>
-		<input type="radio" name="quest13" value="fa" id="132"> <label for="132">полиплоидный</label><br>
-		<input type="radio" name="quest13" value="fa" id="133"> <label for="133">диплоидный</label><br>
-		<input type="radio" name="quest13" value="fa" id="134"> <label for="134">тетраплоидный</label><br>
-		<input type="radio" name="quest13" value="fa" id="135"> <label for="135">одинарный</label><br>
-	  </div> 
-  </div>
+							<!-------------------------- Третий вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>3. Законы Грегора Менделя независимо друг от друга
+									переоткрыли:</b></p>
+							<div>
+								<div>
+									<input type="checkbox" name="quest3" value="fa" id="31"> <label for="31">Чарлз
+										Дарвин</label><br>
+									<input type="checkbox" name="quest3" value="tr" id="32"> <label for="32">Гуго Де
+										Фриз</label><br>
+									<input type="checkbox" name="quest3" value="tr" id="33"> <label for="33">Карл
+										Корренс</label><br>
+									<input type="checkbox" name="quest3" value="fa" id="34"> <label for="34">Карл
+										Линней</label><br>
+									<input type="checkbox" name="quest3" value="tr" id="34"> <label for="34">Эрих
+										Чермах</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Четвертый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>4. Официальной датой рождения генетики считается:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest4" value="fa" id="41"> <label
+										for="41">1865</label><br>
+									<input type="radio" name="quest4" value="fa" id="42"> <label
+										for="42">1859</label><br>
+									<input type="radio" name="quest4" value="fa" id="43"> <label
+										for="43">1839</label><br>
+									<input type="radio" name="quest4" value="tr" id="44"> <label
+										for="44">1900</label><br>
+									<input type="radio" name="quest4" value="fa" id="45"> <label
+										for="45">1860</label><br>
+								</div>
+							</div>
 
 
- <!-------------------------- Четырнадцатый вопрос -------------------------->	
-		
- <p> &nbsp; &nbsp; &nbsp; <b>14. В ядре яйцеклетки человека содержится 23 хромосомы, а в ядре мужской клетки - </b></p>
- <div class="ml-5">
-	 <div>
-		 <input type="radio" name="quest14" value="fa" id="141"> <label for="141">46</label><br>
-		 <input type="radio" name="quest14" value="tr" id="142"> <label for="142">23</label><br>
-		 <input type="radio" name="quest14" value="fa" id="143"> <label for="143">44</label><br>
-		 <input type="radio" name="quest14" value="fa" id="144"> <label for="144">24</label><br>
-		 <input type="radio" name="quest14" value="fa" id="145"> <label for="145">22</label><br>
-	   </div> 
-   </div>
-  
- <!-------------------------- Пятнадцатый вопрос -------------------------->	
-		
- <p> &nbsp; &nbsp; &nbsp; <b>15. Материальным носителем наследственной информации является</b></p>
- <div class="ml-5">
-	 <div>
-		 <input type="radio" name="quest15" value="tr" id="151"> <label for="151">ген</label><br>
-		 <input type="radio" name="quest15" value="fa" id="152"> <label for="152">генотип</label><br>
-		 <input type="radio" name="quest15" value="fa" id="153"> <label for="153">фенотип</label><br>
-		 <input type="radio" name="quest15" value="fa" id="154"> <label for="154">белок</label><br>
-		 <input type="radio" name="quest15" value="fa" id="155"> <label for="155">аминокислота</label><br>
-	   </div> 
-   </div>
+							<!-------------------------- Пятый вопрос -------------------------->
 
-  <!-------------------------- Шестнадцатый вопрос -------------------------->	
-		
-  <p> &nbsp; &nbsp; &nbsp; <b>16. Ген - это</b></p>
-  <div class="ml-5">
-	  <div>
-		  <input type="radio" name="quest16" value="fa" id="161"> <label for="161">участок и-РНК</label><br>
-		  <input type="radio" name="quest16" value="fa" id="162"> <label for="162">единица наследственной информации</label><br>
-		  <input type="radio" name="quest16" value="tr" id="163"> <label for="163">участок ДНК</label><br>
-		  <input type="radio" name="quest16" value="fa" id="164"> <label for="164">имеет определенный набор нуклеотидов</label><br>
-		  <input type="radio" name="quest16" value="fa" id="165"> <label for="165">имеет определенный набор аминокислот</label><br>
-		</div> 
-	</div>  
-
-   <!-------------------------- Семнадцатый вопрос -------------------------->	
-		
-   <p> &nbsp; &nbsp; &nbsp; <b>17. Участок хромосомы, в котором расположен ген, - это</b></p>
-   <div class="ml-5">
-	   <div>
-		   <input type="radio" name="quest17" value="fa" id="171"> <label for="171">РНК</label><br>
-		   <input type="radio" name="quest17" value="fa" id="172"> <label for="172">белок</label><br>
-		   <input type="radio" name="quest17" value="fa" id="173"> <label for="173">ген</label><br>
-		   <input type="radio" name="quest17" value="tr" id="174"> <label for="174">локус</label><br>
-		   <input type="radio" name="quest17" value="fa" id="175"> <label for="175">ДНК</label><br>
-		 </div> 
-	 </div>   
-	
-
-   <!-------------------------- Восемнадцатый вопрос -------------------------->	
-		
-   <p> &nbsp; &nbsp; &nbsp; <b>18. Парные гены, расположенные в одинаковых локусах гомологичных хромосомах 	и отвечающие за формирование альтернативных
-	 признаков, называют</b></p>
-   <div class="ml-5">
-	   <div>
-		   <input type="radio" name="quest18" value="fa" id="181"> <label for="181">половыми</label><br>
-		   <input type="radio" name="quest18" value="fa" id="182"> <label for="182">доминантными</label><br>
-		   <input type="radio" name="quest18" value="fa" id="183"> <label for="183">рецессивными</label><br>
-		   <input type="radio" name="quest18" value="fa" id="184"> <label for="184">сцепленными</label><br>
-		   <input type="radio" name="quest18" value="tr" id="185"> <label for="185">аллельными</label><br>
-		 </div> 
-	 </div>  	 
-
-	 
-   <!-------------------------- Девятнадцатый вопрос -------------------------->	
-		
-   <p> &nbsp; &nbsp; &nbsp; <b>19. Особи, в потомстве которых не происходит расщепление признака, называются</b></p>
-  <div class="ml-5">
-	  <div>
-		  <input type="radio" name="quest19" value="fa" id="191"> <label for="191">гибридными</label><br>
-		  <input type="radio" name="quest19" value="tr" id="192"> <label for="192">гомозиготными</label><br>
-		  <input type="radio" name="quest19" value="fa" id="193"> <label for="193">гетерозиготными</label><br>
-		  <input type="radio" name="quest19" value="fa" id="194"> <label for="194">гемизиготными</label><br>
-		  <input type="radio" name="quest19" value="fa" id="195"> <label for="195">мутантными</label><br>
-		</div> 
-	</div> 
-	 
-
-<!-------------------------- Двадцатый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>20. Определи верные утверждения.</b></p>
-	<div class="ml-5">
-		<div>
-			<input type="checkbox" name="quest20" value="tr" id="201"> <label for="201">альтернативные признаки передаются от родителей к потомству через гаметы</label><br>
-			<input type="checkbox" name="quest20" value="fa" id="202"> <label for="202">в гаметах находятся парные гомологичные хромосомы</label><br>
-			<input type="checkbox" name="quest20" value="tr" id="203"> <label for="203">связь между поколениями осуществляется через гаметы, которые содержат гены,   
-				определяющие развитие признаков</label><br>
-			<input type="checkbox" name="quest20" value="fa" id="204"> <label for="204">две из пары гомологичных хромосом попадают в соматические клетки диплоидного    
-				организма</label><br>
-			</div> 
-	    </div> 
-		
-		
-
-</div>	 
-
-	
-
- 
+							<p> &nbsp; &nbsp; &nbsp; <b>5. Способность организмов приобретать новые признаки под
+									воздействием различных факторов - это</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest5" value="fa" id="51"> <label
+										for="51">мутация</label><br>
+									<input type="radio" name="quest5" value="fa" id="52"> <label
+										for="52">селекция</label><br>
+									<input type="radio" name="quest5" value="fa" id="53"> <label
+										for="53">генетика</label><br>
+									<input type="radio" name="quest5" value="fa" id="54"> <label
+										for="54">наследственность</label><br>
+									<input type="radio" name="quest5" value="tr" id="55"> <label
+										for="55">изменчивость</label><br>
+								</div>
+							</div>
 
 
-	<input type="button" value="Проверить ответы" name="answers" onclick="onClick();" class="btn btn-primary">
-	
-	</form>
-	
-	<!-------------------------- Блок вопросов -------------------------->
+							<!-------------------------- Шестой вопрос -------------------------->
 
-<br>
+							<p> &nbsp; &nbsp; &nbsp; <b>6. Способность организмов передавать признаки и гены от
+									родителей к потомкам - это</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest6" value="tr" id="61"> <label
+										for="61">наследственность</label><br>
+									<input type="radio" name="quest6" value="fa" id="62"> <label
+										for="62">изменчивость</label><br>
+									<input type="radio" name="quest6" value="fa" id="63"> <label
+										for="63">генетика</label><br>
+									<input type="radio" name="quest6" value="fa" id="64"> <label
+										for="64">мутация</label><br>
+									<input type="radio" name="quest6" value="fa" id="65"> <label
+										for="65">селекция</label><br>
+								</div>
+							</div>
 
 
-</div>   
+							<!-------------------------- Cедьмой вопрос -------------------------->
 
-<div>
-	<a class="btn btn-info" href="genetic1.html" role="button" style="margin-top: 24px;">Назад в раздел "1. Основные термины и понятия"</a>
-</div>
-<br>
+							<p> &nbsp; &nbsp; &nbsp; <b>7. Основной метод исследования в генетике, основанный на
+									скрещивании, гибридизации, - это</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest7" value="fa" id="71"> <label
+										for="71">близнецовый</label><br>
+									<input type="radio" name="quest7" value="tr" id="72"> <label
+										for="72">гибридологический</label><br>
+									<input type="radio" name="quest7" value="fa" id="73"> <label
+										for="73">расщепление</label><br>
+									<input type="radio" name="quest7" value="fa" id="74"> <label
+										for="74">генеалогический</label><br>
+									<input type="radio" name="quest7" value="fa" id="75"> <label
+										for="75">цитологический</label><br>
+								</div>
+							</div>
+
+
+							<!-------------------------- Восьмой вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>8. Впервые применил гибридологический метод в генетике</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest8" value="fa" id="81"> <label for="81">Карл
+										Линней</label><br>
+									<input type="radio" name="quest8" value="fa" id="82"> <label for="82">Томас
+										Морган</label><br>
+									<input type="radio" name="quest8" value="tr" id="83"> <label for="83">Грегор
+										Мендель</label><br>
+									<input type="radio" name="quest8" value="fa" id="84"> <label for="84">Чарльз
+										Дарвин</label><br>
+									<input type="radio" name="quest8" value="fa" id="85"> <label for="85">Жан Батист
+										Ламарк</label><br>
+								</div>
+							</div>
+
+
+							<!-------------------------- Девятый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>9. Скрещивание особей, относящихся к различным линиям, сортам,
+									породам, видам, родам растений или животных, называется </b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest9" value="fa" id="91"> <label
+										for="91">домирование</label><br>
+									<input type="radio" name="quest9" value="fa" id="92"> <label
+										for="92">клонирование</label><br>
+									<input type="radio" name="quest9" value="fa" id="93"> <label
+										for="93">мутагенезом</label><br>
+									<input type="radio" name="quest9" value="tr" id="94"> <label
+										for="94">гибридизацией</label><br>
+									<input type="radio" name="quest9" value="fa" id="95"> <label
+										for="95">инбридигом</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Десятый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>10. Выбери основные преимущества гороха как объекта исследования
+									в генетике:</b></p>
+							<div>
+								<div>
+									<input type="checkbox" name="quest10" value="tr" id="101"> <label
+										for="101">небольшое число признаков (семь)</label><br>
+									<input type="checkbox" name="quest10" value="fa" id="102"> <label for="102">большое
+										число признаков</label><br>
+									<input type="checkbox" name="quest10" value="tr" id="103"> <label for="103">всего по
+										два альтернативных признака</label><br>
+									<input type="checkbox" name="quest10" value="tr" id="104"> <label
+										for="104">самоопыляемость</label><br>
+									<input type="checkbox" name="quest10" value="fa" id="104"> <label
+										for="104">перекрестноопыляемость</label><br>
+								</div>
+							</div>
+
+
+
+							<!-------------------------- Одиннадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>11. Соматические клетки содержат набор хромосом </b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest11" value="fa" id="111"> <label
+										for="111">гаплоидный</label><br>
+									<input type="radio" name="quest11" value="fa" id="112"> <label
+										for="112">полиплоидный</label><br>
+									<input type="radio" name="quest11" value="fa" id="113"> <label
+										for="113">одинарный</label><br>
+									<input type="radio" name="quest11" value="fa" id="114"> <label
+										for="114">тетраплоидный</label><br>
+									<input type="radio" name="quest11" value="tr" id="115"> <label
+										for="115">диплоидный</label><br>
+								</div>
+							</div>
+
+
+							<!-------------------------- Двеннадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>12. Набор хромосом в соматических клетках тела человека
+									равен:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest12" value="fa" id="121"> <label
+										for="121">48</label><br>
+									<input type="radio" name="quest12" value="tr" id="122"> <label
+										for="122">46</label><br>
+									<input type="radio" name="quest12" value="fa" id="123"> <label
+										for="123">44</label><br>
+									<input type="radio" name="quest12" value="fa" id="124"> <label
+										for="124">23</label><br>
+									<input type="radio" name="quest12" value="fa" id="125"> <label
+										for="125">24</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Триннадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>13. Половые клетки содержат набор хромосом</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest13" value="tr" id="131"> <label
+										for="131">гаплоидный</label><br>
+									<input type="radio" name="quest13" value="fa" id="132"> <label
+										for="132">полиплоидный</label><br>
+									<input type="radio" name="quest13" value="fa" id="133"> <label
+										for="133">диплоидный</label><br>
+									<input type="radio" name="quest13" value="fa" id="134"> <label
+										for="134">тетраплоидный</label><br>
+									<input type="radio" name="quest13" value="fa" id="135"> <label
+										for="135">одинарный</label><br>
+								</div>
+							</div>
+
+
+							<!-------------------------- Четырнадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>14. В ядре яйцеклетки человека содержится 23 хромосомы, а в ядре
+									мужской клетки - </b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest14" value="fa" id="141"> <label
+										for="141">46</label><br>
+									<input type="radio" name="quest14" value="tr" id="142"> <label
+										for="142">23</label><br>
+									<input type="radio" name="quest14" value="fa" id="143"> <label
+										for="143">44</label><br>
+									<input type="radio" name="quest14" value="fa" id="144"> <label
+										for="144">24</label><br>
+									<input type="radio" name="quest14" value="fa" id="145"> <label
+										for="145">22</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Пятнадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>15. Материальным носителем наследственной информации
+									является</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest15" value="tr" id="151"> <label
+										for="151">ген</label><br>
+									<input type="radio" name="quest15" value="fa" id="152"> <label
+										for="152">генотип</label><br>
+									<input type="radio" name="quest15" value="fa" id="153"> <label
+										for="153">фенотип</label><br>
+									<input type="radio" name="quest15" value="fa" id="154"> <label
+										for="154">белок</label><br>
+									<input type="radio" name="quest15" value="fa" id="155"> <label
+										for="155">аминокислота</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Шестнадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>16. Ген - это</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest16" value="fa" id="161"> <label for="161">участок
+										и-РНК</label><br>
+									<input type="radio" name="quest16" value="fa" id="162"> <label for="162">единица
+										наследственной информации</label><br>
+									<input type="radio" name="quest16" value="tr" id="163"> <label for="163">участок
+										ДНК</label><br>
+									<input type="radio" name="quest16" value="fa" id="164"> <label for="164">имеет
+										определенный набор нуклеотидов</label><br>
+									<input type="radio" name="quest16" value="fa" id="165"> <label for="165">имеет
+										определенный набор аминокислот</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Семнадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>17. Участок хромосомы, в котором расположен ген, - это</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest17" value="fa" id="171"> <label
+										for="171">РНК</label><br>
+									<input type="radio" name="quest17" value="fa" id="172"> <label
+										for="172">белок</label><br>
+									<input type="radio" name="quest17" value="fa" id="173"> <label
+										for="173">ген</label><br>
+									<input type="radio" name="quest17" value="tr" id="174"> <label
+										for="174">локус</label><br>
+									<input type="radio" name="quest17" value="fa" id="175"> <label
+										for="175">ДНК</label><br>
+								</div>
+							</div>
+
+
+							<!-------------------------- Восемнадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>18. Парные гены, расположенные в одинаковых локусах гомологичных
+									хромосомах и отвечающие за формирование альтернативных
+									признаков, называют</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest18" value="fa" id="181"> <label
+										for="181">половыми</label><br>
+									<input type="radio" name="quest18" value="fa" id="182"> <label
+										for="182">доминантными</label><br>
+									<input type="radio" name="quest18" value="fa" id="183"> <label
+										for="183">рецессивными</label><br>
+									<input type="radio" name="quest18" value="fa" id="184"> <label
+										for="184">сцепленными</label><br>
+									<input type="radio" name="quest18" value="tr" id="185"> <label
+										for="185">аллельными</label><br>
+								</div>
+							</div>
+
+
+							<!-------------------------- Девятнадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>19. Особи, в потомстве которых не происходит расщепление
+									признака, называются</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest19" value="fa" id="191"> <label
+										for="191">гибридными</label><br>
+									<input type="radio" name="quest19" value="tr" id="192"> <label
+										for="192">гомозиготными</label><br>
+									<input type="radio" name="quest19" value="fa" id="193"> <label
+										for="193">гетерозиготными</label><br>
+									<input type="radio" name="quest19" value="fa" id="194"> <label
+										for="194">гемизиготными</label><br>
+									<input type="radio" name="quest19" value="fa" id="195"> <label
+										for="195">мутантными</label><br>
+								</div>
+							</div>
+
+
+							<!-------------------------- Двадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>20. Определи верные утверждения.</b></p>
+							<div>
+								<div>
+									<input type="checkbox" name="quest20" value="tr" id="201"> <label
+										for="201">альтернативные признаки передаются от родителей к потомству через
+										гаметы</label><br>
+									<input type="checkbox" name="quest20" value="fa" id="202"> <label for="202">в
+										гаметах находятся парные гомологичные хромосомы</label><br>
+									<input type="checkbox" name="quest20" value="tr" id="203"> <label for="203">связь
+										между поколениями осуществляется через гаметы, которые содержат гены,
+										определяющие развитие признаков</label><br>
+									<input type="checkbox" name="quest20" value="fa" id="204"> <label for="204">две из
+										пары гомологичных хромосом попадают в соматические клетки диплоидного
+										организма</label><br>
+								</div>
+							</div>
+
+
+
+						</div>
+
+
+						<input type="button" value="Проверить ответы" name="answers" onclick="onClick();"
+							class="btn btn-primary">
+
+					</form>
+
+					<!-------------------------- Блок вопросов -------------------------->
+
+					<br>
+
+
+				</div>
+
+				<div>
+					<a class="btn btn-info" href="genetic1.html" role="button" style="margin-top: 24px;">Назад в раздел<br>
+						"1. Основные термины и понятия"</a>
+				</div>
+				<br>
+
+			</div> <!-- of col -->
+		</div> <!-- of row -->
+	</div> <!-- of container -->
 
 </body>
+
 </html>
