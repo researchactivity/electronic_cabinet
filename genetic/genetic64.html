@@ -1,321 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<title>ГЕНЕТИКА: теория, задачи, тесты</title>
-
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
 
 	<style>
 		html {
-			background: url(img/bg.jpg) no-repeat left top fixed;
+			overflow-x: hidden;
+			background: url(img/bg.jpg) no-repeat left top;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
 			background-size: cover;
 		}
-		
+
 		img {
 			border: 2px solid #aaa;
 		}
+
+		body {
+			overflow-x: hidden;
+		}
 	</style>
-	
+
 
 	<script language="javascript">
 		function onClick() {
-		  const answers = document.querySelectorAll('input')
+			const answers = document.querySelectorAll('input')
 			for (const f of answers) {
-			if (f.value=="tr") {
-				$(`label[for="${f.id}"]`).css('color','Lime');
-			}
-			if ((f.checked) && (f.value=="fa")) {
-				//console.log(f.value);
-	
-	
-				$(`label[for="${f.id}"]`).css('color','Red');
-	
-				
-			}
+				if (f.value == "tr") {
+					$(`label[for="${f.id}"]`).css('color', 'Lime');
+				}
+				if ((f.checked) && (f.value == "fa")) {
+					//console.log(f.value);
+
+
+					$(`label[for="${f.id}"]`).css('color', 'Red');
+
+
+				}
 			}
 		}
-		</script>
+	</script>
 
 
 </head>
 
+<body class="text-center" style="margin: 100px 20px;">
+
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+
+				<div>
+					<a class="btn btn-info" href="genetic6.html" role="button" style="margin-top: 24px;">Назад в
+						раздел<br>"6. Сцепленное наследование.<br>Кроссинговер"</a>
+				</div>
+
+
+				<div>
+					<br>
+					<h1 class="display-5">6.4. Сцепленное наследование. Кроссинговер: тесты для самопроверки</h1>
+					<br>
+
+					<p><a href="https://quizlet.com/ru/602043103/%D0%91%D0%9B%D0%9E%D0%9A-23-%D0%A1%D1%86%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%A5%D1%80%D0%BE%D0%BC%D0%BE%D1%81%D0%BE%D0%BC%D0%BD%D0%B0%D1%8F-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8-flash-cards/"
+							target="_blank"><b>Карточки по теме "Сцепленное наследование. Хромосомная теория
+								наследственности."<br>Кликни, чтобы перейти</b></a></p>
+
+					<br>
+
+					<!-------------------------- Блок вопросов -------------------------->
+					<form>
+						<div class="text-justify">
+
+							<!-------------------------- Первый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>1. Сцепленное наследование – это:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest1" value="fa" id="11"> <label for="11">совместное
+										наследование любых генов</label><br>
+									<input type="radio" name="quest1" value="tr" id="12"> <label for="12">совместное
+										наследование генов, локализованных в одной хромосоме</label><br>
+									<input type="radio" name="quest1" value="fa" id="13"> <label for="13">наследование
+										генов, контролирующих сходные признаки</label><br>
+									<input type="radio" name="quest1" value="fa" id="14"> <label for="14">наследование
+										генов разных хромосом</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Второй вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>2. На каких объектах проводил исследования Т. Морган?</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest2" value="fa" id="21"> <label
+										for="21">горох</label><br>
+									<input type="radio" name="quest2" value="fa" id="22"> <label for="22">ночная
+										красавица</label><br>
+									<input type="radio" name="quest2" value="tr" id="23"> <label for="23">мухи
+										дрозофилы</label><br>
+									<input type="radio" name="quest2" value="fa" id="24"> <label
+										for="24">мыши</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Третий вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>3. Виды сцепления генов:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest3" value="fa" id="31"> <label for="31">свободное,
+										неполное</label><br>
+									<input type="radio" name="quest3" value="tr" id="32"> <label for="32">полное,
+										неполное</label><br>
+									<input type="radio" name="quest3" value="fa" id="33"> <label for="33">полное,
+										свободное</label><br>
+									<input type="radio" name="quest3" value="fa" id="34"> <label for="34">частичное,
+										неполное</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Четвертый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>4. Число групп сцепления в кариотипе человека:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest4" value="fa" id="41"> <label for="41">1</label><br>
+									<input type="radio" name="quest4" value="fa" id="42"> <label for="42">2</label><br>
+									<input type="radio" name="quest4" value="fa" id="43"> <label for="43">46</label><br>
+									<input type="radio" name="quest4" value="tr" id="44"> <label for="44">23</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Пятый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>5. В опытах Т. Моргана при скрещивании гибридного самца (AaBb) и
+									дигомозиготной рецессивной самки (aabb) наблюдалось:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest5" value="tr" id="51"> <label for="51">полное
+										сцепление</label><br>
+									<input type="radio" name="quest5" value="fa" id="52"> <label for="52">неполное
+										сцепление</label><br>
+									<input type="radio" name="quest5" value="fa" id="53"> <label for="53">независимое
+										наследование</label><br>
+									<input type="radio" name="quest5" value="fa" id="54"> <label for="54">свободное
+										наследование</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Шестой вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>6. Морганида – условная единица расстояния между генами –
+									соответствует:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest6" value="tr" id="61"> <label for="61">1%
+										кроссоверных потомков</label><br>
+									<input type="radio" name="quest6" value="fa" id="62"> <label for="62">41,5%
+										кроссоверных потомков</label><br>
+									<input type="radio" name="quest6" value="fa" id="63"> <label for="63">10%
+										кроссоверных потомков</label><br>
+									<input type="radio" name="quest6" value="fa" id="64"> <label for="64">8,5%
+										кроссоверных потомков</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Cедьмой вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>7. Крисс-кросс наследование имеет место при:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest7" value="fa" id="71"> <label
+										for="71">аутосомно-доминантном типе наследования</label><br>
+									<input type="radio" name="quest7" value="fa" id="72"> <label
+										for="72">аутосомно-рецессивном типе наследования</label><br>
+									<input type="radio" name="quest7" value="tr" id="73"> <label for="73">Х-сцепленном
+										типе наследования</label><br>
+									<input type="radio" name="quest7" value="fa" id="74"> <label for="74">голандрическом
+										типе наследования</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Восьмой вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>8. При доминантном Х-сцепленном типе наследования:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest8" value="fa" id="81"> <label for="81">больны женщины
+										по линии матери</label><br>
+									<input type="radio" name="quest8" value="fa" id="82"> <label for="82">у здоровых
+										родителей – больной ребенок</label><br>
+									<input type="radio" name="quest8" value="fa" id="83"> <label for="83">двусторонняя
+										отягощенность</label><br>
+									<input type="radio" name="quest8" value="tr" id="84"> <label for="84">у больного
+										отца все дочери больны</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Девятый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>9. Кроссинговер — это:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest9" value="fa" id="91"> <label for="91">обмен
+										генетическим материалом между различными хромосомами</label><br>
+									<input type="radio" name="quest9" value="fa" id="92"> <label for="92">обмен
+										фрагментами между аутосомами и гоносомами</label><br>
+									<input type="radio" name="quest9" value="fa" id="93"> <label for="93">обмен
+										фрагментами между хроматидами одной хромосомы</label><br>
+									<input type="radio" name="quest9" value="tr" id="94"> <label for="94">обмен
+										идентичными участками несестринских хроматид одной пары хромосом</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Десятый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>10. Группа сцепления — это:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest10" value="fa" id="101"> <label for="101">сумма генов
+										гаплоидного набора хромосом</label><br>
+									<input type="radio" name="quest10" value="fa" id="102"> <label for="102">сумма генов
+										генотипа</label><br>
+									<input type="radio" name="quest10" value="fa" id="103"> <label
+										for="103">совокупность генов кариотипа</label><br>
+									<input type="radio" name="quest10" value="tr" id="103"> <label
+										for="103">совокупность генов одной пары хромосом</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Одиннадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>11. Сцепленное наследование можно установить с помощью:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest11" value="fa" id="111"> <label
+										for="111">моногибридного скрещивания</label><br>
+									<input type="radio" name="quest11" value="fa" id="112"> <label
+										for="112">дигибридного скрещивания</label><br>
+									<input type="radio" name="quest11" value="tr" id="113"> <label
+										for="113">анализирующего скрещивания</label><br>
+									<input type="radio" name="quest11" value="fa" id="114"> <label
+										for="114">полигибридного скрещивания</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Двеннадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>12. В родословной при рецессивном Х-сцепленном типе
+									наследования:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest12" value="fa" id="121"> <label for="121">один из
+										родителей обязательно болен</label><br>
+									<input type="radio" name="quest12" value="fa" id="122"> <label for="122">больные в
+										каждом поколении</label><br>
+									<input type="radio" name="quest12" value="tr" id="123"> <label
+										for="123">равновероятно болеют мужчины и женщины</label><br>
+									<input type="radio" name="quest12" value="fa" id="124"> <label for="124">больны
+										женщины по линии матери</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Триннадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>13. Сила сцепления генов в хромосоме:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest13" value="fa" id="131"> <label for="131">не зависит
+										от взаиморасположения генов</label><br>
+									<input type="radio" name="quest13" value="tr" id="132"> <label for="132">прямо
+										пропорциональна расстоянию между генами</label><br>
+									<input type="radio" name="quest13" value="fa" id="133"> <label for="133">зависит от
+										состава генов</label><br>
+									<input type="radio" name="quest13" value="fa" id="134"> <label for="134">обратно
+										пропорциональна расстоянию между генами</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Четырнадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>14. Кто открыл факт, что число хромосом в клетках тела вдвое
+									больше, чем в половых клетках?</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest14" value="tr" id="141"> <label for="141">Э. ван
+										Бенедон</label><br>
+									<input type="radio" name="quest14" value="fa" id="142"> <label for="142">В.
+										Сэттон</label><br>
+									<input type="radio" name="quest14" value="fa" id="143"> <label for="143">Э.
+										Вильсона</label><br>
+									<input type="radio" name="quest14" value="fa" id="144"> <label for="144">В. Сэттон и
+										Э. Вильсон</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Пятнадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>16. Половые хромосомы птиц женского пола:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest15" value="fa" id="151"> <label
+										for="151">ZZ</label><br>
+									<input type="radio" name="quest15" value="tr" id="152"> <label
+										for="152">ZW</label><br>
+									<input type="radio" name="quest15" value="fa" id="153"> <label
+										for="153">XY</label><br>
+									<input type="radio" name="quest15" value="fa" id="154"> <label
+										for="154">YY</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Шестнадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>17. Данные анализа хромосомных перестроек используют для:</b>
+							</p>
+							<div>
+								<div>
+									<input type="radio" name="quest16" value="fa" id="161"> <label for="161">хромосомных
+										карт</label><br>
+									<input type="radio" name="quest16" value="fa" id="162"> <label
+										for="162">филогенетичеких деревьев</label><br>
+									<input type="radio" name="quest16" value="fa" id="163"> <label
+										for="163">генетических карт</label><br>
+									<input type="radio" name="quest16" value="tr" id="164"> <label
+										for="164">цитологических карт хромосом</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Семнадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>18. Рахит – заболевание:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest17" value="fa" id="171"> <label for="171">сцепленное
+										с Y хромосомой, доминантное</label><br>
+									<input type="radio" name="quest17" value="fa" id="172"> <label
+										for="172">несцепленное с полом</label><br>
+									<input type="radio" name="quest17" value="tr" id="173"> <label for="173">сцепленное
+										с X хромосомой, доминантное</label><br>
+									<input type="radio" name="quest17" value="fa" id="174"> <label for="174">сцепленное
+										с X хромосомой, рецессивное</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Восемнадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>19. Пример рецессивного Х-сцепленного наследования:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest18" value="tr" id="181"> <label for="181">дистрофия
+										Дюшена</label><br>
+									<input type="radio" name="quest18" value="fa" id="182"> <label for="182">коричневая
+										эмаль зубов</label><br>
+									<input type="radio" name="quest18" value="fa" id="183"> <label for="183">болезнь
+										Тей-Сакса</label><br>
+									<input type="radio" name="quest18" value="fa" id="184"> <label for="184">синдром
+										Марфана</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Девятнадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>20. Х-хромосома морфологически сходна с аутосомами группы:</b>
+							</p>
+							<div>
+								<div>
+									<input type="radio" name="quest19" value="fa" id="191"> <label
+										for="191">B</label><br>
+									<input type="radio" name="quest19" value="tr" id="192"> <label
+										for="192">B</label><br>
+									<input type="radio" name="quest19" value="fa" id="193"> <label
+										for="193">D</label><br>
+									<input type="radio" name="quest19" value="fa" id="194"> <label
+										for="194">E</label><br>
+								</div>
+							</div>
 
 
 
-<body class="text-center" style="margin: 100px;">
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+						</div>
 
-	<div>
-		<a class="btn btn-info" href="genetic6.html" role="button" style="margin-top: 24px;">Назад в раздел "6. Сцепленное наследование. Кроссинговер"</a>
-	</div>
+						<input type="button" value="Проверить ответы" name="answers" onclick="onClick();"
+							class="btn btn-primary">
 
+					</form>
 
-<div class="m-4">
-<br>
-<h1 class="display-4">6.4. Сцепленное наследование. Кроссинговер: тесты для самопроверки</h1>
-<br>
+					<!-------------------------- Блок вопросов -------------------------->
 
-<p><a href="https://quizlet.com/ru/602043103/%D0%91%D0%9B%D0%9E%D0%9A-23-%D0%A1%D1%86%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%A5%D1%80%D0%BE%D0%BC%D0%BE%D1%81%D0%BE%D0%BC%D0%BD%D0%B0%D1%8F-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F-%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8-flash-cards/"
-	 target="_blank"><b>Карточки по теме "Сцепленное наследование. Хромосомная теория наследственности."<br>Кликни, чтобы перейти</b></a></p>
+					<br>
+					<div>
+						<a class="btn btn-info" href="genetic6.html" role="button" style="margin-top: 24px;">Назад в
+							раздел<br>"6. Сцепленное наследование.<br>Кроссинговер"</a>
+					</div>
+					<br>
+				</div>
 
-<br>
+			</div> <!-- of col -->
+		</div> <!-- of row -->
+	</div> <!-- of container -->
 
-<!-------------------------- Блок вопросов -------------------------->	
-<form>
-	<div class="text-justify">
-	
-	<!-------------------------- Первый вопрос -------------------------->
-	
-		<p> &nbsp; &nbsp; &nbsp; <b>1. Сцепленное наследование – это:</b></p>
-		<div class="ml-5">
-			<div>
-				<input type="radio" name="quest1" value="fa" id="11"> <label for="11">совместное наследование любых генов</label><br>
-				<input type="radio" name="quest1" value="tr" id="12"> <label for="12">совместное наследование генов, локализованных в одной хромосоме</label><br>
-				<input type="radio" name="quest1" value="fa" id="13"> <label for="13">наследование генов, контролирующих сходные признаки</label><br>
-				<input type="radio" name="quest1" value="fa" id="14"> <label for="14">наследование генов разных хромосом</label><br>
-			  </div>
-		  </div>
-				
-	<!-------------------------- Второй вопрос -------------------------->	
-		
-		<p> &nbsp; &nbsp; &nbsp; <b>2. На каких объектах проводил исследования Т. Морган?</b></p>
-		<div class="ml-5">
-			<div>
-				<input type="radio" name="quest2" value="fa" id="21"> <label for="21">горох</label><br>
-				<input type="radio" name="quest2" value="fa" id="22"> <label for="22">ночная красавица</label><br>
-				<input type="radio" name="quest2" value="tr" id="23"> <label for="23">мухи дрозофилы</label><br>
-				<input type="radio" name="quest2" value="fa" id="24"> <label for="24">мыши</label><br>
-			  </div> 
-		  </div>
-		  
-	<!-------------------------- Третий вопрос -------------------------->	
-		
-	<p> &nbsp; &nbsp; &nbsp; <b>3. Виды сцепления генов:</b></p>
-	<div class="ml-5">
-		<div>
-			<input type="radio" name="quest3" value="fa" id="31"> <label for="31">свободное, неполное</label><br>
-			<input type="radio" name="quest3" value="tr" id="32"> <label for="32">полное, неполное</label><br>
-			<input type="radio" name="quest3" value="fa" id="33"> <label for="33">полное, свободное</label><br>
-			<input type="radio" name="quest3" value="fa" id="34"> <label for="34">частичное, неполное</label><br>
-		  </div> 
-	  </div>
-		  
-<!-------------------------- Четвертый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>4. Число групп сцепления в кариотипе человека:</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest4" value="fa" id="41"> <label for="41">1</label><br>
-		<input type="radio" name="quest4" value="fa" id="42"> <label for="42">2</label><br>
-		<input type="radio" name="quest4" value="fa" id="43"> <label for="43">46</label><br>
-		<input type="radio" name="quest4" value="tr" id="44"> <label for="44">23</label><br>
-	  </div> 
-  </div>
-  
-<!-------------------------- Пятый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>5. В опытах Т. Моргана при скрещивании гибридного самца (AaBb) и дигомозиготной рецессивной самки (aabb) наблюдалось:</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest5" value="tr" id="51"> <label for="51">полное сцепление</label><br>
-		<input type="radio" name="quest5" value="fa" id="52"> <label for="52">неполное сцепление</label><br>
-		<input type="radio" name="quest5" value="fa" id="53"> <label for="53">независимое наследование</label><br>
-		<input type="radio" name="quest5" value="fa" id="54"> <label for="54">свободное наследование</label><br>
-	  </div> 
-  </div>
-  
-<!-------------------------- Шестой вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>6. Морганида – условная единица расстояния между генами – соответствует:</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest6" value="tr" id="61"> <label for="61">1% кроссоверных потомков</label><br>
-		<input type="radio" name="quest6" value="fa" id="62"> <label for="62">41,5% кроссоверных потомков</label><br>
-		<input type="radio" name="quest6" value="fa" id="63"> <label for="63">10% кроссоверных потомков</label><br>
-		<input type="radio" name="quest6" value="fa" id="64"> <label for="64">8,5% кроссоверных потомков</label><br>
-	  </div> 
-  </div>
-   
-<!-------------------------- Cедьмой вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>7. Крисс-кросс наследование имеет место при:</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest7" value="fa" id="71"> <label for="71">аутосомно-доминантном типе наследования</label><br>
-		<input type="radio" name="quest7" value="fa" id="72"> <label for="72">аутосомно-рецессивном типе наследования</label><br>
-		<input type="radio" name="quest7" value="tr" id="73"> <label for="73">Х-сцепленном типе наследования</label><br>
-		<input type="radio" name="quest7" value="fa" id="74"> <label for="74">голандрическом типе наследования</label><br>
-	  </div> 
-  </div>
-  
-<!-------------------------- Восьмой вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>8. При доминантном Х-сцепленном типе наследования:</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest8" value="fa" id="81"> <label for="81">больны женщины по линии матери</label><br>
-		<input type="radio" name="quest8" value="fa" id="82"> <label for="82">у здоровых родителей – больной ребенок</label><br>
-		<input type="radio" name="quest8" value="fa" id="83"> <label for="83">двусторонняя отягощенность</label><br>
-		<input type="radio" name="quest8" value="tr" id="84"> <label for="84">у больного отца все дочери больны</label><br>
-	  </div> 
-  </div>
-  
-<!-------------------------- Девятый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>9. Кроссинговер — это:</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest9" value="fa" id="91"> <label for="91">обмен генетическим материалом между различными хромосомами</label><br>
-		<input type="radio" name="quest9" value="fa" id="92"> <label for="92">обмен фрагментами между аутосомами и гоносомами</label><br>
-		<input type="radio" name="quest9" value="fa" id="93"> <label for="93">обмен фрагментами между хроматидами одной хромосомы</label><br>
-		<input type="radio" name="quest9" value="tr" id="94"> <label for="94">обмен идентичными участками несестринских хроматид одной пары хромосом</label><br>
-	  </div> 
-  </div>
-	
-<!-------------------------- Десятый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>10. Группа сцепления — это:</b></p>
-	<div class="ml-5">
-		<div>
-			<input type="radio" name="quest10" value="fa" id="101"> <label for="101">сумма генов гаплоидного набора хромосом</label><br>
-			<input type="radio" name="quest10" value="fa" id="102"> <label for="102">сумма генов генотипа</label><br>
-			<input type="radio" name="quest10" value="fa" id="103"> <label for="103">совокупность генов кариотипа</label><br>
-			<input type="radio" name="quest10" value="tr" id="103"> <label for="103">совокупность генов одной пары хромосом</label><br>
-		  </div> 
-	    </div>   
-						
-<!-------------------------- Одиннадцатый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>11. Сцепленное наследование можно установить с помощью:</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest11" value="fa" id="111"> <label for="111">моногибридного скрещивания</label><br>
-		<input type="radio" name="quest11" value="fa" id="112"> <label for="112">дигибридного скрещивания</label><br>
-		<input type="radio" name="quest11" value="tr" id="113"> <label for="113">анализирующего скрещивания</label><br>
-		<input type="radio" name="quest11" value="fa" id="114"> <label for="114">полигибридного скрещивания</label><br>
-	  </div> 
-  </div>
-  
-<!-------------------------- Двеннадцатый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>12. В родословной при рецессивном Х-сцепленном типе наследования:</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest12" value="fa" id="121"> <label for="121">один из родителей обязательно болен</label><br>
-		<input type="radio" name="quest12" value="fa" id="122"> <label for="122">больные в каждом поколении</label><br>
-		<input type="radio" name="quest12" value="tr" id="123"> <label for="123">равновероятно болеют мужчины и женщины</label><br>
-		<input type="radio" name="quest12" value="fa" id="124"> <label for="124">больны женщины по линии матери</label><br>
-	  </div> 
-  </div>
-  
-<!-------------------------- Триннадцатый вопрос -------------------------->	
-		
-<p> &nbsp; &nbsp; &nbsp; <b>13. Сила сцепления генов в хромосоме:</b></p>
-<div class="ml-5">
-	<div>
-		<input type="radio" name="quest13" value="fa" id="131"> <label for="131">не зависит от взаиморасположения генов</label><br>
-		<input type="radio" name="quest13" value="tr" id="132"> <label for="132">прямо пропорциональна расстоянию между генами</label><br>
-		<input type="radio" name="quest13" value="fa" id="133"> <label for="133">зависит от состава генов</label><br>
-		<input type="radio" name="quest13" value="fa" id="134"> <label for="134">обратно пропорциональна расстоянию между генами</label><br>
-	  </div> 
-  </div>
-   
- <!-------------------------- Четырнадцатый вопрос -------------------------->	
-		
- <p> &nbsp; &nbsp; &nbsp; <b>14. Кто открыл факт, что число хромосом в клетках тела вдвое больше, чем в половых клетках?</b></p>
- <div class="ml-5">
-	 <div>
-		 <input type="radio" name="quest14" value="tr" id="141"> <label for="141">Э. ван Бенедон</label><br>
-		 <input type="radio" name="quest14" value="fa" id="142"> <label for="142">В. Сэттон</label><br>
-		 <input type="radio" name="quest14" value="fa" id="143"> <label for="143">Э. Вильсона</label><br>
-		 <input type="radio" name="quest14" value="fa" id="144"> <label for="144">В. Сэттон и Э. Вильсон</label><br>
-	   </div> 
-   </div>
-   
-<!-------------------------- Пятнадцатый вопрос -------------------------->	
-		
- <p> &nbsp; &nbsp; &nbsp; <b>16. Половые хромосомы птиц женского пола:</b></p>
- <div class="ml-5">
-	 <div>
-		 <input type="radio" name="quest15" value="fa" id="151"> <label for="151">ZZ</label><br>
-		 <input type="radio" name="quest15" value="tr" id="152"> <label for="152">ZW</label><br>
-		 <input type="radio" name="quest15" value="fa" id="153"> <label for="153">XY</label><br>
-		 <input type="radio" name="quest15" value="fa" id="154"> <label for="154">YY</label><br>
-	   </div> 
-   </div>
-	 
-  <!-------------------------- Шестнадцатый вопрос -------------------------->	
-		
-  <p> &nbsp; &nbsp; &nbsp; <b>17. Данные анализа хромосомных перестроек используют для:</b></p>
-  <div class="ml-5">
-	  <div>
-		  <input type="radio" name="quest16" value="fa" id="161"> <label for="161">хромосомных карт</label><br>
-		  <input type="radio" name="quest16" value="fa" id="162"> <label for="162">филогенетичеких деревьев</label><br>
-		  <input type="radio" name="quest16" value="fa" id="163"> <label for="163">генетических карт</label><br>
-		  <input type="radio" name="quest16" value="tr" id="164"> <label for="164">цитологических карт хромосом</label><br>
-		</div> 
-	</div>  
-
-   <!-------------------------- Семнадцатый вопрос -------------------------->	
-		
-   <p> &nbsp; &nbsp; &nbsp; <b>18. Рахит – заболевание:</b></p>
-   <div class="ml-5">
-	   <div>
-		   <input type="radio" name="quest17" value="fa" id="171"> <label for="171">сцепленное с Y хромосомой, доминантное</label><br>
-		   <input type="radio" name="quest17" value="fa" id="172"> <label for="172">несцепленное с полом</label><br>
-		   <input type="radio" name="quest17" value="tr" id="173"> <label for="173">сцепленное с X хромосомой, доминантное</label><br>
-		   <input type="radio" name="quest17" value="fa" id="174"> <label for="174">сцепленное с X хромосомой, рецессивное</label><br>
-		 </div> 
-	 </div>   
-	  
-   <!-------------------------- Восемнадцатый вопрос -------------------------->	
-		
-   <p> &nbsp; &nbsp; &nbsp; <b>19. Пример рецессивного Х-сцепленного наследования:</b></p>
-   <div class="ml-5">
-	   <div>
-		   <input type="radio" name="quest18" value="tr" id="181"> <label for="181">дистрофия Дюшена</label><br>
-		   <input type="radio" name="quest18" value="fa" id="182"> <label for="182">коричневая эмаль зубов</label><br>
-		   <input type="radio" name="quest18" value="fa" id="183"> <label for="183">болезнь Тей-Сакса</label><br>
-		   <input type="radio" name="quest18" value="fa" id="184"> <label for="184">синдром Марфана</label><br>
-		 </div> 
-	 </div>  	 
-	  
-   <!-------------------------- Девятнадцатый вопрос -------------------------->	
-		
-   <p> &nbsp; &nbsp; &nbsp; <b>20. Х-хромосома морфологически сходна с аутосомами группы:</b></p>
-  <div class="ml-5">
-	  <div>
-		  <input type="radio" name="quest19" value="fa" id="191"> <label for="191">B</label><br>
-		  <input type="radio" name="quest19" value="tr" id="192"> <label for="192">B</label><br>
-		  <input type="radio" name="quest19" value="fa" id="193"> <label for="193">D</label><br>
-		  <input type="radio" name="quest19" value="fa" id="194"> <label for="194">E</label><br>
-		</div> 
-	</div> 
-			
-
-	
-</div>	 
-
-	<input type="button" value="Проверить ответы" name="answers" onclick="onClick();" class="btn btn-primary">
-	
-	</form>
-	
-	<!-------------------------- Блок вопросов -------------------------->
-
-<br>
-<div>
-	<a class="btn btn-info" href="genetic6.html" role="button" style="margin-top: 24px;">Назад в раздел "6. Сцепленное наследование. Кроссинговер"</a>
-</div>
-<br>
-</div>   
 </body>
+
 </html>
