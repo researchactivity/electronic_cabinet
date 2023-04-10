@@ -1,0 +1,551 @@
+@font-face {
+  font-family: "Montserrat-Black"; 
+  src: url('../fonts/Montserrat-Black.ttf') format('truetype'); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 
+
+@font-face {
+  font-family: "Montserrat-Medium"; 
+  src: url('../fonts/Montserrat-Medium.ttf') format('truetype'); 
+  font-style: normal; 
+  font-weight: normal; 
+  }  
+  
+
+html, body {
+
+    overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: "Montserrat-Medium";
+  }
+
+
+}
+
+
+p {
+  margin: 0; }
+
+.container {
+  margin-left: 220 !important;
+  margin-right: 220 !important;
+}
+
+.header {
+  background: #173042 url("../img/header.jpg") no-repeat top/cover;
+  color: #fff;
+  padding-top: 36px;
+  width: 100%;
+  }
+  .header__title {
+    font-family: "Montserrat-Black";
+    font-size: 72px;
+    color: #fefeff;
+    margin-top: 26px;
+    margin-left: 550px;
+    margin-bottom: 10px; }
+    .header__title p {
+      font-family: "Montserrat-Black" !important;
+      font-size: 80px;
+      line-height: 0.9em;
+      text-transform: uppercase;
+      margin: 0; }
+  .header__text {
+    font-family: "Montserrat-Black";
+    font-size: 21px;
+    margin-bottom: 20px; }
+    .header__text p {
+      margin-bottom: 391px;
+      color: #000000; }
+  .header .button {
+    border-radius: 5em;
+    height: 75px;
+    width: 320px;
+    background-image: -moz-linear-gradient(-29deg, #48d7bb 0%, #0eb595 100%);
+    background-image: -webkit-linear-gradient(-29deg, #48d7bb 0%, #0eb595 100%);
+    background-image: -ms-linear-gradient(-29deg, #48d7bb 0%, #0eb595 100%);
+    box-shadow: 0px 12px 43px 0px rgba(35, 220, 184, 0.31);
+    font-size: 18px;
+    font-family: "Montserrat-Black";
+    text-transform: uppercase;
+    text-shadow: 0px 2px 21px rgba(239, 255, 252, 0.46);
+    margin-bottom: 240px;
+    padding: 0;
+    color: #fff; }
+
+ul {
+  display: flex; }
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0; }
+
+h4 {
+  font-size: 48px;
+  color: #212f3d;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Montserrat-Black"; }
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  color: #fff; }
+  .navbar-logo__name {
+    font-size: 26px;
+    font-family: "Montserrat-Medium"; }
+  .navbar-logo__description {
+    font-size: 16px;
+    font-family: "Montserrat-Medium"; }
+.navbar-social {
+  display: flex; }
+  .navbar-social__links {
+    display: flex; }
+  .navbar-social__item {
+    font-size: 20px; }
+    .navbar-social__item a {
+      color: #fff; }
+      .navbar-social__item a:hover {
+        text-decoration: none;
+        color: #96a09c; }
+.navbar-phone {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat-Medium";
+  font-size: 20px; }
+  .navbar-phone:hover {
+    text-decoration: none;
+    color: #96a09c; }
+
+.why {
+  background: #fff url("../img/ornament2.jpg") repeat;
+  background-attachment: fixed;
+}
+.why a {
+  color: #3f534f;
+  border: 2px #3f534f solid;
+  width: 259px;
+  height: 66px;
+  border-radius: 5em;
+  font-size: 18px;
+  font-family: "Montserrat-Black";
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  background-color: transparent;
+  margin-top: 35px; }
+
+.why a:hover {
+  color: #e1f7f3;
+  border: 2px #212b29 solid;
+  background-color: rgb(36, 34, 34);
+}
+
+
+.why p {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.why .spacer3 {
+  margin-bottom: 0;}
+.why div {
+  text-align: center;
+  margin-bottom: 29px;
+}
+.why__title {
+  font-family: "Bebas Neue";
+  padding: 0;
+  margin: 120px 0 91px;
+  text-align: center; }
+.why__card {
+  background: #fff;
+  font-family: "Montserrat-Medium";
+  font-size: 18px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.why__card h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.why__card-img {
+  height: 140px;
+  text-align: center; }
+.why__card-txt {
+  height: 50px;
+  text-align: center; }
+  .why__card-txt p {
+    vertical-align: bottom;
+    margin-bottom: 10px; }
+
+.about {
+  background: #173042 url("../img/people_photo.jpg") no-repeat top/cover; }
+
+  .about__bg h4 {
+    font-family: "Montserrat-Black";
+    margin: 50px 0 60px; }
+  .about__bg p {
+    margin-bottom: 80px;
+    font-family: "Montserrat-Medium";
+    font-size: 21px;
+    text-align: left; }
+
+.about a {
+  color: #3f534f;
+  border: 2px #3f534f solid;
+  width: 259px;
+  height: 66px;
+  border-radius: 5em;
+  font-size: 18px;
+  font-family: "Montserrat-Black";
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  background-color: transparent;
+  margin-top: 35px;
+}
+    
+.about a:hover {
+  color: #e1f7f3;
+  border: 2px #212b29 solid;
+  background-color: rgb(36, 34, 34); 
+}
+
+.memorial p {
+  margin-bottom: 30px;
+  padding-left: 40px;
+  text-align: left; }
+
+.memorial {
+  background-color: #E0E1E5; }
+  .memorial h4 {
+    font-family: "Montserrat-Black";
+    margin: 30px 0 15px; }
+
+.memorial .spacer3 {
+  margin-top: 29px;
+}
+.memorial div {
+  text-align: center;
+  margin-bottom: 29px;
+}
+.memorial .container {
+  background: #173042 url("../img/vov.jpg") no-repeat top/cover; }
+.memorial__title {
+  padding: 0;
+  margin: 120px 0 91px;
+  text-align: center; }
+.memorial__card {
+  font-family: "Montserrat-Medium";
+  font-size: 18px;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 20px; }
+.memorial__card-txt {
+  height: 50px;
+  text-align: center; }
+  .memorial__card-txt p {
+    vertical-align: bottom;
+    margin-bottom: 30px; }
+
+.memorial a {
+  color: #3f534f;
+  border: 2px #3f534f solid;
+  width: 259px;
+  height: 66px;
+  border-radius: 5em;
+  font-size: 18px;
+  font-family: "Montserrat-Black";
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  background-color: transparent;
+  margin-top: 35px;
+}
+
+.memorial a:hover {
+  color: #e1f7f3;
+  border: 2px #212b29 solid;
+  background-color: rgb(36, 34, 34);
+}
+
+.bott { margin-bottom: 318px; }
+.bott2 { 
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+
+
+.history {
+  background: #173042 url("../img/history2.jpg") no-repeat top/cover;
+  background-attachment: fixed;
+}
+
+.famous {
+  background: #173042 url("../img/pobeda2.jpg") no-repeat top/cover;
+  background-attachment: fixed;
+}
+
+.monument {
+  background: #173042 url("../img/monument4.jpg") no-repeat top/cover;
+  background-attachment: fixed;
+}
+
+.content h4 {
+  font-family: "Montserrat-Black";
+  margin: 30px 0 15px; }
+
+.content p {
+  font-family: "Montserrat-Medium";
+  margin-bottom: 20px;
+  text-align:justify;
+}
+
+.content a.button {
+  color: #3f534f;
+  border: 2px #3f534f solid;
+  width: 259px;
+  height: 66px;
+  border-radius: 5em;
+  font-size: 18px;
+  font-family: "Montserrat-Black";
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  background-color: transparent;
+  margin-top: 35px;
+}
+
+.content a.button:hover {
+  color: #e1f7f3;
+  border: 2px #212b29 solid;
+  background-color: rgb(36, 34, 34);
+}
+
+
+.virt {
+  background: #173042 url("../img/virt4.jpg") no-repeat top/cover; }
+
+
+  .about__bg h4 {
+    font-family: "Montserrat-Black";
+    margin: 50px 0 60px; }
+  .virt__bg p {
+    margin-bottom: 30px;
+    font-family: "Montserrat-Medium";
+    font-size: 21px;
+    text-align: left; }
+
+.virt {
+  background-color: #f8fbfa; }
+  .virt h4 {
+    font-family: "Montserrat-Black";
+    margin: 30px 0 15px; }
+
+.virt a {
+  color: #3f534f;
+  border: 2px #3f534f solid;
+  width: 259px;
+  height: 66px;
+  border-radius: 5em;
+  font-size: 18px;
+  font-family: "Montserrat-Black";
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  background-color: transparent;
+  margin-top: 35px;
+}
+    
+.virt a:hover {
+  color: #e1f7f3;
+  border: 2px #212b29 solid;
+  background-color: rgb(36, 34, 34); 
+}
+
+.form__text {
+  text-align: center; }
+  .form__text h4 {
+    margin: 120px 50px; }
+  .form__text p {
+    font-family: "Montserrat-Medium";
+    margin-bottom: 70px; }
+  .form__text button {
+    border-radius: 5em;
+    border: none;
+    background-image: -moz-linear-gradient(-29deg, #48d7bb 0%, #0eb595 100%);
+    background-image: -webkit-linear-gradient(-29deg, #48d7bb 0%, #0eb595 100%);
+    background-image: -ms-linear-gradient(-29deg, #48d7bb 0%, #0eb595 100%);
+    box-shadow: 0px 12px 43px 0px rgba(35, 220, 184, 0.31);
+    width: 320px;
+    height: 75px;
+    font-size: 18px;
+    font-family: "Montserrat-Medium";
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    padding: 0;
+    color: #fff; }
+  .form__text .policy {
+    font-family: "Montserrat-Medium";
+    font-size: 14px;
+    margin-bottom: 40px;
+    margin-top: 30px; }
+
+.fields {
+  margin-bottom: 30px; }
+  .fields input {
+    background-color: #eff4f3;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 16px; }
+    .fields input:focus {
+      outline: none; }
+  .fields .field {
+    padding: 0;
+    margin: 0 15px; }
+
+.parallax {
+  position: absolute;
+  bottom: 0;
+  left: -130px; }
+
+.parallax2 {
+  position: absolute;
+  top: -250px;
+  right: -180px; }
+
+.footer {
+  background: #2a3949 url("../img/people.png") no-repeat top/cover;
+  padding: 15px 0 15px; }
+  .footer h4 {
+    color: #fff;
+    margin-bottom: 80px; }
+  .footer__text p {
+    color: #7b7f84; }
+
+.footer p{
+  font-family: "Montserrat-Medium";
+}
+
+.social {
+  text-align: center;
+  margin-bottom: 496px; }
+  .social i {
+    color: #fff; }
+  .social__items {
+    margin: 0 auto; }
+    .social__items a {
+      text-decoration: none; }
+      .social__items a:hover i {
+        color: #96a09c; }
+      .social__items a:hover .circle {
+        border: solid 2px #96a09c; }
+    .social__items i {
+      color: white; }
+
+.circle {
+  background: transparent;
+  width: 80px;
+  height: 80px;
+  border: solid 2px white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+hr {
+  height: 1px;
+  color: #999; /* old IE */
+  background-color: #999; /* Modern Browsers */
+}  
+
+.centr p {
+  text-align: center;
+}
+
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+
+@media (max-width: 576px) {
+  .clouds, .clouds-delay {
+    display: none; }
+	
+  .famous img.small {
+		width: 100%; }
+  
+}
+
+
+
+@media (max-width: 768px) {
+	.monument img.wide {
+		width: 100%; }
+	
+}
+
+
+@media (max-width: 992px) {
+	.header {
+		background: #173042 url("../img/priroda.jpg") no-repeat top/cover; }
+	
+	.virt {
+		background: #fff url("../img/virt1.jpg") no-repeat top/cover; }
+
+	iframe {
+    height: 400px;}
+	
+	.history img {
+	width: 100%;}
+	
+	.famous img.wide {
+		width: 100%; }
+		
+	.monument img.superwide {
+		width: 100%; }
+	
+}
+
+@media (max-width: 1200px) {
+  .memorial .container {
+  background: #E0E1E5 url("../img/vov1.jpg") no-repeat top/cover; }
+  
+  .why .container {
+  background: url("../img/Magician.jpg") no-repeat top/cover; }
+  
+  .why {
+  background: #c6eded url("../img/Magician5.jpg") no-repeat top/cover; }
+  
+  .memorial  {
+  background: #173042 url("../img/vov2.jpg") no-repeat top/cover; }
+  
+  .memorial .container {
+  background:  url("../img/vov1.jpg") no-repeat top/cover; }
+  
+  
+  
+  }
+  
+
+  
+  
+
+
+
+
+
+
