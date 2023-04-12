@@ -14,7 +14,6 @@
   
 
 html, body {
-
     overflow-x: hidden;
 }
 
@@ -26,6 +25,8 @@ body {
   }
 
 
+.div_img {
+  margin-bottom: 0;
 }
 
 
@@ -38,7 +39,7 @@ p {
 }
 
 .header {
-  background: #173042 url("../img/header.jpg") no-repeat top/cover;
+  background: #173042 url("../img/header02.jpg") no-repeat top/cover;
   color: #fff;
   padding-top: 36px;
   width: 100%;
@@ -48,7 +49,7 @@ p {
     font-size: 72px;
     color: #fefeff;
     margin-top: 26px;
-    margin-left: 550px;
+    margin-left: 500px;
     margin-bottom: 10px; }
     .header__title p {
       font-family: "Montserrat-Black" !important;
@@ -61,7 +62,7 @@ p {
     font-size: 21px;
     margin-bottom: 20px; }
     .header__text p {
-      margin-bottom: 391px;
+      margin-bottom: 150px;
       color: #000000; }
   .header .button {
     border-radius: 5em;
@@ -129,11 +130,6 @@ h4 {
   background-attachment: fixed;
 }
 .why a {
-  color: #3f534f;
-  border: 2px #3f534f solid;
-  width: 259px;
-  height: 66px;
-  border-radius: 5em;
   font-size: 18px;
   font-family: "Montserrat-Black";
   text-transform: uppercase;
@@ -141,12 +137,6 @@ h4 {
   padding: 15px;
   background-color: transparent;
   margin-top: 35px; }
-
-.why a:hover {
-  color: #e1f7f3;
-  border: 2px #212b29 solid;
-  background-color: rgb(36, 34, 34);
-}
 
 
 .why p {
@@ -158,7 +148,7 @@ h4 {
   margin-bottom: 0;}
 .why div {
   text-align: center;
-  margin-bottom: 29px;
+  margin-bottom: 10px;
 }
 .why__title {
   font-family: "Bebas Neue";
