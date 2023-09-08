@@ -477,6 +477,14 @@ iframe {
 	
   .famous img.small {
 		width: 100%; }
+
+  .header__title {
+    font-size: 50px;
+  }
+
+  .why__card h1 {
+    font-size: 2.0rem;
+  }
   
 }
 
@@ -492,7 +500,7 @@ iframe {
 @media (max-width: 992px) {
 	.header {
 		background: #173042 url("../img/priroda.jpg") no-repeat top/cover; }
-	
+    	
 	.virt {
 		background: #fff url("../img/virt1.jpg") no-repeat top/cover; }
 
@@ -507,13 +515,25 @@ iframe {
 		
 	.monument img.superwide {
 		width: 100%; }
+
+  .header__title {
+    margin-left: 50px;
+  }
 	
+  .why__card {
+    width: 100%;
+  }
+
+  .why__card img {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 1200px) {
   .memorial .container {
   background: #E0E1E5 url("../img/vov1.jpg") no-repeat top/cover; }
-  
+
   .why .container {
   background: url("../img/Magician.jpg") no-repeat top/cover; }
   
