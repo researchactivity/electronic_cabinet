@@ -493,6 +493,10 @@ iframe {
 @media (max-width: 768px) {
 	.monument img.wide {
 		width: 100%; }
+  .header__title {
+      margin-left: 20px;
+  }
+  
 	
 }
 
@@ -517,7 +521,7 @@ iframe {
 		width: 100%; }
 
   .header__title {
-    margin-left: 50px;
+    margin-left: 20px;
   }
 	
   .why__card {
