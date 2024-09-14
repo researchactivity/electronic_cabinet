@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<title>Тэст на тэму «Камедыя «Хто смяецца апошнім»</title>
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+	<style>
+		html {
+			overflow-x: hidden;
+			background: url(img/bg.jpg) no-repeat left top;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		img {
+			border: 2px solid #aaa;
+		}
+		body {
+			overflow-x: hidden;
+		}
+	</style>
+
+
+	<script language="javascript">
+		function onClick() {
+			const answers = document.querySelectorAll('input')
+			for (const f of answers) {
+				if (f.value == "tr") {
+					$(`label[for="${f.id}"]`).css('color', 'Lime');
+				}
+				if ((f.checked) && (f.value == "fa")) {
+					//console.log(f.value);
+					$(`label[for="${f.id}"]`).css('color', 'Red');
+
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body class="text-center" style="margin: 100px 50px;">
+
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+
+				<div>
+					<a class="btn btn-info" href="hto00.html" role="button" style="margin-top: 24px;">Назад да раздзела «Камедыя «Хто смяецца апошнім»</a>
+				</div>
+
+
+				<div>
+					<br>
+					<h1 class="display-5">Тэст на тэму «Камедыя «Хто смяецца апошнім»</h1>
+					<br>
+
+
+					<!-------------------------- Блок вопросов -------------------------->
+					<form>
+						<div class="text-justify">
+
+							<!-------------------------- Первый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>1. Кандрат Крапіва нарадзіўся 5 сакавіка 1896 года ў вёсцы ___ Уздзенскага раёна Мінскай вобласці ў сялянскай сям’і.</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest1" value="fa" id="11"> <label for="11">Вязынка</label><br>
+									<input type="radio" name="quest1" value="tr" id="12"> <label for="12">Нізок</label><br>
+									<input type="radio" name="quest1" value="fa" id="13"> <label for="13">Акінчыцы</label><br>
+									<input type="radio" name="quest1" value="fa" id="14"> <label for="14">Панюшкавічы</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Второй вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>2. Чэсны вучоны камедыi:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest2" value="fa" id="21"> <label for="21">Гарлахвацкі</label><br>
+									<input type="radio" name="quest2" value="fa" id="22"> <label for="22">Зёлкін</label><br>
+									<input type="radio" name="quest2" value="tr" id="23"> <label for="23">Чарнавус</label><br>
+									<input type="radio" name="quest2" value="fa" id="24"> <label for="24">Туляга</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Третий вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>3. «Д’ябал на каціных мяккіх лапах» - гэта</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest3" value="fa" id="31"> <label for="31">Гарлахвацкі</label><br>
+									<input type="radio" name="quest3" value="fa" id="32"> <label for="32">Чарнавус</label><br>
+									<input type="radio" name="quest3" value="tr" id="33"> <label for="33">Зёлкін</label><br>
+									<input type="radio" name="quest3" value="fa" id="34"> <label for="34">Туляга</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Четвертый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>4. Таленавіты, але запалоханы вучоны - гэта</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest4" value="tr" id="41"> <label for="41">Туляга</label><br>
+									<input type="radio" name="quest4" value="fa" id="42"> <label for="42">Зёлкін</label><br>
+									<input type="radio" name="quest4" value="fa" id="43"> <label for="43">Гарлахвацкі</label><br>
+									<input type="radio" name="quest4" value="fa" id="44"> <label for="44">Чарнавус</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Пятый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>5. Cапраўдны прыстасаванец, нахабнік, дэмагог, кар’ерыст і артыст у адной асобе - гэта</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest5" value="fa" id="51"> <label for="51">Туляга</label><br>
+									<input type="radio" name="quest5" value="tr" id="52"> <label for="52">Гарлахвацкі</label><br>
+									<input type="radio" name="quest5" value="fa" id="53"> <label for="53">Чарнавус</label><br>
+									<input type="radio" name="quest5" value="fa" id="54"> <label for="54">Зёлкін</label><br>
+								</div>
+							</div>
+							
+							<!-------------------------- Шестой вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>6. Адзначце, пра каго з персанажаў камедыі гаворыць Чарнавус: «Выступаць з такім навуковым дакладам — гэта безабразіе. Адны траскучыя фразы і абсалютна нічога канкрэтнага. Не выкарыстаў нават таго матэрыялу, які яму быў дадзены амаль поўнасцю апрацаваным. I каго ён хацеў падмануць?»</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest6" value="fa" id="61"> <label for="61">пра Тулягу</label><br>
+									<input type="radio" name="quest6" value="fa" id="62"> <label for="62">пра Гарлахвацкага</label><br>
+									<input type="radio" name="quest6" value="tr" id="63"> <label for="63">пра Зёлкіна</label><br>
+								</div>
+							</div>
+							
+							
+							<!-------------------------- Cедьмой вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>7. Навуковы даклад Гарлахвацкаму напісаў Туляга.</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest7" value="tr" id="71"> <label for="71">Правільнае сцвярджэнне</label><br>
+									<input type="radio" name="quest7" value="fa" id="72"> <label for="72">Няправільнае сцвярджэнне</label><br>
+								</div>
+							</div>
+							
+							<!-------------------------- Восьмой вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>8. Сапраўднае прозвішча і імя пісьменніка Кандрат Кандратавіч Атраховіч.</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest8" value="tr" id="81"> <label for="81">Правільнае сцвярджэнне</label><br>
+									<input type="radio" name="quest8" value="fa" id="82"> <label for="82">Няправільнае сцвярджэнне</label><br>
+								</div>
+							</div>
+							
+							<!-------------------------- Девятый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>9. Адзначце назву першай п’есы Кандрата Крапівы:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest9" value="fa" id="91"> <label for="91">«Хто смяецца апошнім»</label><br>
+									<input type="radio" name="quest9" value="fa" id="92"> <label for="92">«Мілы чалавек»</label><br>
+									<input type="radio" name="quest9" value="tr" id="93"> <label for="93">«Канец дружбы»</label><br>
+								</div>
+							</div>
+							
+							<!-------------------------- Десятый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>10. Адзначце, у якім годзе была напісана камедыя «Хто смяецца апошнім»:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest10" value="fa" id="101"> <label for="101">1922</label><br>
+									<input type="radio" name="quest10" value="fa" id="102"> <label for="102">1946</label><br>
+									<input type="radio" name="quest10" value="tr" id="103"> <label for="103">1939</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Одинадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>11. Адзначце, каму з персанажаў п’есы належаць словы: «Працаваць трэба заўзята. Вось як я, напрыклад,— адпачыць хвіліну часу няма».</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest11" value="fa" id="111"> <label for="111">Чарнавусу</label><br>
+									<input type="radio" name="quest11" value="fa" id="112"> <label for="112">Тулягу</label><br>
+									<input type="radio" name="quest11" value="tr" id="113"> <label for="113">Гарлахвацкаму</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Двенадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>12. У п’есе «Хто смяецца апошнім» Кандрат Крапіва асуджае:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest12" value="fa" id="121"> <label for="121">працавітасць</label><br>
+									<input type="radio" name="quest12" value="tr" id="122"> <label for="122">прыстасавальніцтва</label><br>
+									<input type="radio" name="quest12" value="fa" id="123"> <label for="123">навуковасць</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Тринадцатый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>13. Адзначце, да якога паняцця адносіцца прыведзенае азначэнне:<br>
+										Вострае сутыкненне характараў і абствін, поглядаў і жыццёвых прынцыпаў, пакладзеных у аснову дзеяння мастацкага твора.</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest13" value="fa" id="131"> <label for="131">кульмінацыя</label><br>
+									<input type="radio" name="quest13" value="fa" id="132"> <label for="132">сюжэт</label><br>
+									<input type="radio" name="quest13" value="tr" id="133"> <label for="133">канфлікт</label><br>
+								</div>
+							</div>
+
+
+						</div>
+
+						<input type="button" value="Праверыць адказы" name="answers" onclick="onClick();"
+							class="btn btn-primary">
+
+					</form>
+
+					<!-------------------------- Блок вопросов -------------------------->
+
+					<br>
+					<div>
+						<a class="btn btn-info" href="hto00.html" role="button" style="margin-top: 24px;">Назад да раздзела «Камедыя «Хто смяецца апошнім»</a>
+					</div>
+					<br>
+				</div>
+
+			</div> <!-- of col -->
+		</div> <!-- of row -->
+	</div> <!-- of container -->
+
+</body>
+
+</html>

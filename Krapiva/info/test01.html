@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<title>Тэст на тэму «Байкi Кандрата Крапiвы»</title>
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+	<style>
+		html {
+			overflow-x: hidden;
+			background: url(img/bg.jpg) no-repeat left top;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		img {
+			border: 2px solid #aaa;
+		}
+		body {
+			overflow-x: hidden;
+		}
+	</style>
+
+
+	<script language="javascript">
+		function onClick() {
+			const answers = document.querySelectorAll('input')
+			for (const f of answers) {
+				if (f.value == "tr") {
+					$(`label[for="${f.id}"]`).css('color', 'Lime');
+				}
+				if ((f.checked) && (f.value == "fa")) {
+					//console.log(f.value);
+					$(`label[for="${f.id}"]`).css('color', 'Red');
+
+				}
+			}
+		}
+	</script>
+
+
+</head>
+
+<body class="text-center" style="margin: 100px 50px;">
+
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-12">
+
+				<div>
+					<a class="btn btn-info" href="bajki00.html" role="button" style="margin-top: 24px;">Назад да раздзела «БАЙКI»</a>
+				</div>
+
+
+				<div>
+					<br>
+					<h1 class="display-5">Крыжаванка на тэму «Кандрат Крапіва - байкапiсец»</h1>
+					<iframe src="https://learningapps.org/watch?app=17517578" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+
+
+					<br>
+					<br>
+					<h1 class="display-5">Тэст на тэму «Байкi Кандрата Крапiвы»</h1>
+					<br>
+
+
+					<!-------------------------- Блок вопросов -------------------------->
+					<form>
+						<div class="text-justify">
+
+							<!-------------------------- Первый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>1. Сапраўднае імя Кандрата Крапівы:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest1" value="tr" id="11"> <label for="11">Кандрат Кандратавіч Атраховіч</label><br>
+									<input type="radio" name="quest1" value="fa" id="12"> <label for="12">Іван Дамінікавіч Луцэвіч</label><br>
+									<input type="radio" name="quest1" value="fa" id="13"> <label for="13">Яўген Іванавіч Скурко</label><br>
+									<input type="radio" name="quest1" value="fa" id="14"> <label for="14">Канстанцін Міхайлавіч Міцкевіч</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Второй вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>2. Кароткае вершаванае апавяданне, якое мае павучальны ці выкрывальны характар – гэта:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest2" value="fa" id="21"> <label for="21">паэма</label><br>
+									<input type="radio" name="quest2" value="fa" id="22"> <label for="22">балада</label><br>
+									<input type="radio" name="quest2" value="tr" id="23"> <label for="23">байка</label><br>
+									<input type="radio" name="quest2" value="fa" id="24"> <label for="24">верш</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Третий вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>3. Байка – гэта твор …</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest3" value="tr" id="31"> <label for="31">сатырычны</label><br>
+									<input type="radio" name="quest3" value="fa" id="32"> <label for="32">гумарыстычны</label><br>
+									<input type="radio" name="quest3" value="fa" id="33"> <label for="33">лірычны</label><br>
+									<input type="radio" name="quest3" value="fa" id="34"> <label for="34">рамантычны</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Четвертый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>4. Адзначце, што адсутнічае ў байцы:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest4" value="fa" id="41"> <label for="41">дзеянне</label><br>
+									<input type="radio" name="quest4" value="fa" id="42"> <label for="42">дыялог</label><br>
+									<input type="radio" name="quest4" value="tr" id="43"> <label for="43">лірычнае адступленне</label><br>
+								</div>
+							</div>
+							
+							<!-------------------------- Пятый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>5. Выберыце, што асуджае ў байцы “Ганарысты Парсюк” Кандрат Крапіва:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest5" value="fa" id="51"> <label for="51">фармалізм і бюракратыю</label><br>
+									<input type="radio" name="quest5" value="tr" id="52"> <label for="52">ганарлівасць і абмежаванасць</label><br>
+									<input type="radio" name="quest5" value="fa" id="53"> <label for="53">сквапнасць</label><br>
+								</div>
+							</div>
+							
+							<!-------------------------- Шестой вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>6. Адзначце той радок, якім аўтар паказвае Падсвінака:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest6" value="fa" id="61"> <label for="61">ліслівым і маладушным</label><br>
+									<input type="radio" name="quest6" value="fa" id="62"> <label for="62">ганарлівым і самазадаволеным</label><br>
+									<input type="radio" name="quest6" value="tr" id="63"> <label for="63">шчырым, наіўным і прастадушным</label><br>
+								</div>
+							</div>
+							
+							
+							<!-------------------------- Cедьмой вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>7. Кандрат Крапіва ў байцы “Дыпламаваны Баран” стварае вобраз цэнтральнага персанажа пры дапамозе:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest7" value="tr" id="71"> <label for="71">гіпербалы</label><br>
+									<input type="radio" name="quest7" value="fa" id="72"> <label for="72">метафары</label><br>
+									<input type="radio" name="quest7" value="fa" id="73"> <label for="73">параўнання</label><br>
+								</div>
+							</div>
+
+							<!-------------------------- Восьмой вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>8. Байкапісец паказвае Барана:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest8" value="fa" id="81"> <label for="81">разумным і дасціпным</label><br>
+									<input type="radio" name="quest8" value="tr" id="82"> <label for="82">абмежаваным, упартым і ганарыстым</label><br>
+									<input type="radio" name="quest8" value="fa" id="83"> <label for="83">нячэсным і крывадушным</label><br>
+								</div>
+							</div>
+							
+							<!-------------------------- Девятый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>9. Іншасказальнае адлюстраванне прадмета ці з’явы праз вобразы, якія маюць пераносны сэнс – гэта:</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest9" value="tr" id="91"> <label for="91">алегорыя</label><br>
+									<input type="radio" name="quest9" value="fa" id="92"> <label for="92">алітэрацыя</label><br>
+									<input type="radio" name="quest9" value="fa" id="93"> <label for="93">гіпербала</label><br>
+								</div>
+							</div>
+							
+							<!-------------------------- Десятый вопрос -------------------------->
+
+							<p> &nbsp; &nbsp; &nbsp; <b>10. Байка – гэта жанр, які спалучае рысы …</b></p>
+							<div>
+								<div>
+									<input type="radio" name="quest10" value="fa" id="101"> <label for="101">эпасу і драмы</label><br>
+									<input type="radio" name="quest10" value="fa" id="102"> <label for="102">лірыкі і драмы</label><br>
+									<input type="radio" name="quest10" value="tr" id="103"> <label for="103">эпасу, лірыкі і драмы</label><br>
+								</div>
+							</div>
+
+							
+						</div>
+
+						<input type="button" value="Праверыць адказы" name="answers" onclick="onClick();"
+							class="btn btn-primary">
+
+					</form>
+
+					<!-------------------------- Блок вопросов -------------------------->
+
+					<br>
+					<div>
+						<a class="btn btn-info" href="bajki00.html" role="button" style="margin-top: 24px;">Назад да раздзела «БАЙКI»</a>
+					</div>
+					<br>
+				</div>
+
+			</div> <!-- of col -->
+		</div> <!-- of row -->
+	</div> <!-- of container -->
+
+</body>
+
+</html>
